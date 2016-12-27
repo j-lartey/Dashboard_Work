@@ -1,0 +1,257 @@
+<!doctype html>
+<html>
+<head>
+	<title>JABS Monthly Report</title>
+	<meta charset="utf-8"/>
+	<link rel="shortcut icon" href="var/www/html/images/DOJicon.ico"></link>
+	<link href="var/www/html/vis/4.11/vis.css" rel="stylesheet" type="text/css"></link>
+	<link href="var/www/html/jquery/jquery-ui-1.11.4/jquery-ui.min.css" rel="stylesheet" type="text/css"></link>
+	<link href="var/www/html/dashboard_css/dashboard.css" rel="stylesheet" type="text/css"></link>
+	
+	<style type="text/css">
+		body {
+			font-family: Arial, Helvetica, sans-serif;	
+			background-color: #E0E0E0
+		}
+		.ui-datepicker-calendar {
+			display: none;
+		}
+		.vis-legend {
+		opacity: 0.7;
+		}
+	</style>
+	
+	<script type="text/javascript" src="var/www/html/jquery/1.11.3/jquery.min.js"></script>
+	<script type="text/javascript" src="var/www/html/jquery/jquery-ui-1.11.4/jquery-ui.min.js"></script>
+	<script type="text/javascript" src="var/www/html/vis/4.11/vis.js"></script>
+
+</head>
+<body>
+	<div id="Title">
+		<img src="var/www/html/images/new_jabs_logo2.png" id="JABS-logo-left"/>
+		JABS Monthly Transaction Volume
+		<img src="var/www/html/images/dojseal.png" id="JABS-logo-right"/>
+	</div>
+	<div id="Date"></div>
+	<div id="PickerDiv2">Select a Month: <input type="text" id="datepicker" /></div>
+	<div id="Chart"></div>
+
+	<script  type="text/javascript">
+	
+	var reportGraph = [];
+	var container = document.getElementById('Chart');
+	
+	function drawGraph() {
+		document.getElementById("Chart").innerHTML = "";
+	
+		var groups = new vis.DataSet();
+		groups.add({id: 'ATPRS_TR_total',  content: 'DHS-TPRS', style: "fill:#33cc33; stroke: #33cc33;"});
+		groups.add({id: 'BNTPRS_TR_total',	content: 'Booking', style: "fill:#668cff; stroke: #668cff;"});
+		groups.add({id: 'CNGI_TR_total',  content: 'NGI-EFTS',   style: "fill:#4d4d4d; stroke: #4d4d4d;"});
+		
+		var options = {
+			drawPoints: false,
+			showCurrentTime: false,
+			clickToUse: true,
+			style: 'bar',
+			legend: true,
+			zoomMin: 2800000000,
+			zoomMax: 2800000000,
+			start: start,
+			end: end,
+			max: end,
+			min: start,
+			stack: true,
+			barChart: {width: 40},
+			yAxisOrientation: 'left',
+			clickToUse: false,
+			dataAxis: 
+				{left: {range: {min: 0}, title: {text: 'Total Transactions', style: "font-weight: bold"}}}	
+		};
+		
+		var reportGraph = new vis.Graph2d(container, dataList, groups, options);
+	};
+	
+	function getJSON() {
+		return $.ajax({
+			url: url,
+			cache: false,	
+			//Return an alert window upon an error when loading JSON data.
+			error: function(xhr, status, error) {
+				var status = "***There was an error retrieving the graph data. Please inform the System Administrator.***";
+				console.log(status);}
+		});	
+	};
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	function calculateTotals(data) {
+		var jsonObjects = [data.TPRS_TR, data.NTPRS_TR, data.NGI_TR];
+		
+		for (var i=(jsonObjects[0].length-1); i>0; i--) {
+			if (typeof jsonObjects[0][i].Cumulative !== 'undefined') {
+				var date = jsonObjects[0][i].Date.substring(0, 11) + "23:00:00";
+				dataList.push({
+					x: date,
+					y: jsonObjects[0][i].Cumulative,
+					group: 'A' + jsonObjects[0][i].group
+				});
+				if (typeof jsonObjects[0][i].Cumulative !== 'defined') {break}						
+			};
+		};	
+		for (var i=(jsonObjects[1].length-1); i>0; i--) {
+			if (typeof jsonObjects[1][i].Cumulative !== 'undefined') {
+				var date = jsonObjects[1][i].Date.substring(0, 11) + "23:00:00";
+				dataList.push({
+					x: date,
+					y: jsonObjects[1][i].Cumulative,
+					group: 'B' + jsonObjects[1][i].group
+				});
+				if (typeof jsonObjects[1][i].Cumulative !== 'defined') {break}						
+			};
+		};
+		for (var i=(jsonObjects[2].length-1); i>0; i--) {
+			if (typeof jsonObjects[2][i].Cumulative !== 'undefined') {
+				var date = jsonObjects[2][i].Date.substring(0, 11) + "23:00:00";
+				dataList.push({
+					x: date,
+					y: jsonObjects[2][i].Cumulative,
+					group: 'C' + jsonObjects[2][i].group
+				});
+				if (typeof jsonObjects[2][i].Cumulative !== 'defined') {break}					
+			};
+		}; 
+	};
+	
+	$("#datepicker").datepicker({
+		maxDate: 0,
+		minDate: (new Date(2016, 1 - 1, 20)), 	//We do not have data for days prior to 1/20/2016.
+		dateFormat: "MM yy",
+		changeMonth: true,
+        changeYear: true,
+		showButtonPanel: true,
+		onClose: function() {
+			for (var i=0, j=reportGraph.length; i<j; i++) {reportGraph[i].destroy()};
+			while (container.hasChildNodes()) {container.removeChild(container.firstChild)};
+			
+			document.getElementById("Chart").innerHTML = "Loading Graph...";
+			
+			function daysInMonth(monthPlace,year) {
+				return new Date(year, monthPlace, 0).getDate();
+			};
+			
+			dataList = [];
+			var currDayTime = $("#ui-datepicker-div .ui-datepicker-year :selected").val() + ($("#ui-datepicker-div .ui-datepicker-month :selected").val().slice(-2));
+			
+			// DISABLED 1 LINE - BUGGY CODE: Fixed double digit months
+			//var currDayTime = $("#ui-datepicker-div .ui-datepicker-year :selected").val() + ($("0" + "#ui-datepicker-div .ui-datepicker-month :selected").val().slice(-2));
+			
+			
+			
+			var year = currDayTime.substring(0,4);
+			var monthPlace = currDayTime.substring(4,6);
+			// using negative numbers to select using .slice text from end of string, since end is omitted, selecting all characters in string
+			//months start with zero, hence adding one to start
+ 
+			var monthPlace = Number(monthPlace) + 1;
+			
+			if (monthPlace < 10) {
+				// convert number to string
+				var monthPlace = monthPlace + "";  
+				var monthPlace = "0" + monthPlace.slice(-2);
+			}
+			else
+			{
+				// convert to number to string
+				var monthPlace = monthPlace + "";
+				var monthPlace = monthPlace.slice(-2);
+			}
+
+			// DISABLED 2 LINES - BUGGY CODE
+			//var monthPlace = monthPlace + "";
+			//var monthPlace = "0" + monthPlace.slice(-2);
+
+			var month = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"];
+			var month = "" + month[Number(currDayTime.substring(4,6))];
+			var totalDays = daysInMonth(monthPlace, year);
+			var currentDate = [];
+			start = year+"-"+monthPlace+"-02"; 
+			end = year+"-"+monthPlace+"-"+(totalDays+1);
+			document.getElementById("Date").innerHTML = month + " " + year;
+			
+			for (i=0, j=totalDays; i<j; i++) {
+				if (i < 9) {var day = '0' + (i+1)} else {var day = (i+1)};
+				currentDate[i] = "" + year + monthPlace + day;
+			};
+			for (i=0, j=totalDays; i<j; i++) {
+				url = "/JSON_data/" + year + "/" + month + "/" + currentDate[i] + ".json";
+				getJSON(url).done(calculateTotals);
+			};
+			
+			setTimeout("drawGraph()", 5000);
+		},		
+	}); 
+	
+	function start() {
+		for (var i=0, j=reportGraph.length; i<j; i++) {reportGraph[i].destroy()};
+		while (container.hasChildNodes()) {container.removeChild(container.firstChild)};
+		
+		document.getElementById("Chart").innerHTML = "Loading Graph...";
+		
+		function daysInMonth(monthPlace,year) {
+			return new Date(year, monthPlace, 0).getDate();
+		};
+		
+		dataList = [];
+		var currDayTime = new Date();
+		var year = currDayTime.getFullYear();
+		var monthPlace = currDayTime.getMonth();
+		var monthPlace = Number(monthPlace) + 1;
+		
+		if (monthPlace < 10) {
+				// convert number to string
+				var monthPlace = monthPlace + "";  
+				var monthPlace = "0" + monthPlace.slice(-2);
+			}
+			else
+			{
+				// convert to number to string
+				var monthPlace = monthPlace + "";
+				var monthPlace = monthPlace.slice(-2);
+			}
+		// DISABLED 2 LINES - BUGGY CODE
+			//var monthPlace = monthPlace + "";
+			//var monthPlace = "0" + monthPlace.slice(-2);
+		
+		
+		var month = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"];
+		var month = "" + month[Number(currDayTime.getMonth())];
+		var totalDays = daysInMonth(monthPlace, year);
+		console.log(totalDays)
+		var currentDate = [];
+		start = year+"-"+monthPlace+"-02"; 
+		end = year+"-"+monthPlace+"-"+(totalDays+1);
+		document.getElementById("Date").innerHTML = month + " " + year;
+		
+		for (i=0, j=totalDays; i<j; i++) {
+			if (i < 9) {var day = '0' + (i+1)} else {var day = (i+1)};
+			currentDate[i] = "" + year + monthPlace + day;
+		};
+		for (i=0, j=totalDays; i<j; i++) {
+			url = "var/www/html/JSON_data/" + year + "/" + month + "/" + currentDate[i] + ".json";
+			getJSON(url).done(calculateTotals);
+		};
+		
+		setTimeout("drawGraph()", 5000);
+	};
+	
+	start();
+	</script>
+</body>
+</html>

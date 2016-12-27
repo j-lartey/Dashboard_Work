@@ -1,0 +1,5030 @@
+{
+    "NGI_TR": [
+        {
+            "group": "NGI_TR_total",
+            "Date": "2016-02-15 17:08:51",
+            "Cumulative": 0
+        },
+        {
+            "group": "NGI_TR_step",
+            "Date": "2016-02-15 17:08:51",
+            "TransIncrease": 0
+        },
+        {
+            "group": "NGI_TR_total",
+            "Date": "2016-02-15 17:13:51",
+            "Cumulative": 2319
+        },
+        {
+            "group": "NGI_TR_step",
+            "Date": "2016-02-15 17:13:51",
+            "TransIncrease": 2319
+        },
+        {
+            "group": "NGI_TR_total",
+            "Date": "2016-02-15 17:18:31",
+            "Cumulative": 2329
+        },
+        {
+            "group": "NGI_TR_step",
+            "Date": "2016-02-15 17:18:31",
+            "TransIncrease": 10
+        },
+        {
+            "group": "NGI_TR_total",
+            "Date": "2016-02-15 17:23:11",
+            "Cumulative": 2344
+        },
+        {
+            "group": "NGI_TR_step",
+            "Date": "2016-02-15 17:23:11",
+            "TransIncrease": 15
+        },
+        {
+            "group": "NGI_TR_total",
+            "Date": "2016-02-15 17:28:52",
+            "Cumulative": 2354
+        },
+        {
+            "group": "NGI_TR_step",
+            "Date": "2016-02-15 17:28:52",
+            "TransIncrease": 10
+        },
+        {
+            "group": "NGI_TR_total",
+            "Date": "2016-02-15 17:32:11",
+            "Cumulative": 2359
+        },
+        {
+            "group": "NGI_TR_step",
+            "Date": "2016-02-15 17:32:11",
+            "TransIncrease": 5
+        },
+        {
+            "group": "NGI_TR_total",
+            "Date": "2016-02-15 17:38:52",
+            "Cumulative": 2368
+        },
+        {
+            "group": "NGI_TR_step",
+            "Date": "2016-02-15 17:38:52",
+            "TransIncrease": 9
+        },
+        {
+            "group": "NGI_TR_total",
+            "Date": "2016-02-15 17:43:52",
+            "Cumulative": 2377
+        },
+        {
+            "group": "NGI_TR_step",
+            "Date": "2016-02-15 17:43:52",
+            "TransIncrease": 9
+        },
+        {
+            "group": "NGI_TR_total",
+            "Date": "2016-02-15 17:48:12",
+            "Cumulative": 2388
+        },
+        {
+            "group": "NGI_TR_step",
+            "Date": "2016-02-15 17:48:12",
+            "TransIncrease": 11
+        },
+        {
+            "group": "NGI_TR_total",
+            "Date": "2016-02-15 17:53:53",
+            "Cumulative": 2418
+        },
+        {
+            "group": "NGI_TR_step",
+            "Date": "2016-02-15 17:53:53",
+            "TransIncrease": 30
+        },
+        {
+            "group": "NGI_TR_total",
+            "Date": "2016-02-15 17:58:33",
+            "Cumulative": 2432
+        },
+        {
+            "group": "NGI_TR_step",
+            "Date": "2016-02-15 17:58:33",
+            "TransIncrease": 14
+        },
+        {
+            "group": "NGI_TR_total",
+            "Date": "2016-02-15 18:02:33",
+            "Cumulative": 2438
+        },
+        {
+            "group": "NGI_TR_step",
+            "Date": "2016-02-15 18:02:33",
+            "TransIncrease": 6
+        },
+        {
+            "group": "NGI_TR_total",
+            "Date": "2016-02-15 18:08:33",
+            "Cumulative": 2443
+        },
+        {
+            "group": "NGI_TR_step",
+            "Date": "2016-02-15 18:08:33",
+            "TransIncrease": 5
+        },
+        {
+            "group": "NGI_TR_total",
+            "Date": "2016-02-15 18:13:53",
+            "Cumulative": 2450
+        },
+        {
+            "group": "NGI_TR_step",
+            "Date": "2016-02-15 18:13:53",
+            "TransIncrease": 7
+        },
+        {
+            "group": "NGI_TR_total",
+            "Date": "2016-02-15 18:18:54",
+            "Cumulative": 2465
+        },
+        {
+            "group": "NGI_TR_step",
+            "Date": "2016-02-15 18:18:54",
+            "TransIncrease": 15
+        },
+        {
+            "group": "NGI_TR_total",
+            "Date": "2016-02-15 18:23:34",
+            "Cumulative": 2486
+        },
+        {
+            "group": "NGI_TR_step",
+            "Date": "2016-02-15 18:23:34",
+            "TransIncrease": 21
+        },
+        {
+            "group": "NGI_TR_total",
+            "Date": "2016-02-15 18:27:54",
+            "Cumulative": 2493
+        },
+        {
+            "group": "NGI_TR_step",
+            "Date": "2016-02-15 18:27:54",
+            "TransIncrease": 7
+        },
+        {
+            "group": "NGI_TR_total",
+            "Date": "2016-02-15 18:32:54",
+            "Cumulative": 2502
+        },
+        {
+            "group": "NGI_TR_step",
+            "Date": "2016-02-15 18:32:54",
+            "TransIncrease": 9
+        },
+        {
+            "group": "NGI_TR_total",
+            "Date": "2016-02-15 18:38:54",
+            "Cumulative": 2510
+        },
+        {
+            "group": "NGI_TR_step",
+            "Date": "2016-02-15 18:38:54",
+            "TransIncrease": 8
+        },
+        {
+            "group": "NGI_TR_total",
+            "Date": "2016-02-15 18:43:54",
+            "Cumulative": 2519
+        },
+        {
+            "group": "NGI_TR_step",
+            "Date": "2016-02-15 18:43:54",
+            "TransIncrease": 9
+        },
+        {
+            "group": "NGI_TR_total",
+            "Date": "2016-02-15 18:48:55",
+            "Cumulative": 2541
+        },
+        {
+            "group": "NGI_TR_step",
+            "Date": "2016-02-15 18:48:55",
+            "TransIncrease": 22
+        },
+        {
+            "group": "NGI_TR_total",
+            "Date": "2016-02-15 18:53:55",
+            "Cumulative": 2551
+        },
+        {
+            "group": "NGI_TR_step",
+            "Date": "2016-02-15 18:53:55",
+            "TransIncrease": 10
+        },
+        {
+            "group": "NGI_TR_total",
+            "Date": "2016-02-15 18:58:55",
+            "Cumulative": 2567
+        },
+        {
+            "group": "NGI_TR_step",
+            "Date": "2016-02-15 18:58:55",
+            "TransIncrease": 16
+        },
+        {
+            "group": "NGI_TR_total",
+            "Date": "2016-02-15 19:03:55",
+            "Cumulative": 2572
+        },
+        {
+            "group": "NGI_TR_step",
+            "Date": "2016-02-15 19:03:55",
+            "TransIncrease": 5
+        },
+        {
+            "group": "NGI_TR_total",
+            "Date": "2016-02-15 19:07:35",
+            "Cumulative": 2578
+        },
+        {
+            "group": "NGI_TR_step",
+            "Date": "2016-02-15 19:07:35",
+            "TransIncrease": 6
+        },
+        {
+            "group": "NGI_TR_total",
+            "Date": "2016-02-15 19:13:56",
+            "Cumulative": 2595
+        },
+        {
+            "group": "NGI_TR_step",
+            "Date": "2016-02-15 19:13:56",
+            "TransIncrease": 17
+        },
+        {
+            "group": "NGI_TR_total",
+            "Date": "2016-02-15 19:18:56",
+            "Cumulative": 2616
+        },
+        {
+            "group": "NGI_TR_step",
+            "Date": "2016-02-15 19:18:56",
+            "TransIncrease": 21
+        },
+        {
+            "group": "NGI_TR_total",
+            "Date": "2016-02-15 19:22:16",
+            "Cumulative": 2620
+        },
+        {
+            "group": "NGI_TR_step",
+            "Date": "2016-02-15 19:22:16",
+            "TransIncrease": 4
+        },
+        {
+            "group": "NGI_TR_total",
+            "Date": "2016-02-15 19:28:56",
+            "Cumulative": 2634
+        },
+        {
+            "group": "NGI_TR_step",
+            "Date": "2016-02-15 19:28:56",
+            "TransIncrease": 14
+        },
+        {
+            "group": "NGI_TR_total",
+            "Date": "2016-02-15 19:32:16",
+            "Cumulative": 2640
+        },
+        {
+            "group": "NGI_TR_step",
+            "Date": "2016-02-15 19:32:16",
+            "TransIncrease": 6
+        },
+        {
+            "group": "NGI_TR_total",
+            "Date": "2016-02-15 19:38:17",
+            "Cumulative": 2646
+        },
+        {
+            "group": "NGI_TR_step",
+            "Date": "2016-02-15 19:38:17",
+            "TransIncrease": 6
+        },
+        {
+            "group": "NGI_TR_total",
+            "Date": "2016-02-15 19:43:37",
+            "Cumulative": 2652
+        },
+        {
+            "group": "NGI_TR_step",
+            "Date": "2016-02-15 19:43:37",
+            "TransIncrease": 6
+        },
+        {
+            "group": "NGI_TR_total",
+            "Date": "2016-02-15 19:48:57",
+            "Cumulative": 2673
+        },
+        {
+            "group": "NGI_TR_step",
+            "Date": "2016-02-15 19:48:57",
+            "TransIncrease": 21
+        },
+        {
+            "group": "NGI_TR_total",
+            "Date": "2016-02-15 19:53:57",
+            "Cumulative": 2697
+        },
+        {
+            "group": "NGI_TR_step",
+            "Date": "2016-02-15 19:53:57",
+            "TransIncrease": 24
+        },
+        {
+            "group": "NGI_TR_total",
+            "Date": "2016-02-15 19:58:57",
+            "Cumulative": 2706
+        },
+        {
+            "group": "NGI_TR_step",
+            "Date": "2016-02-15 19:58:57",
+            "TransIncrease": 9
+        },
+        {
+            "group": "NGI_TR_total",
+            "Date": "2016-02-15 20:02:58",
+            "Cumulative": 2709
+        },
+        {
+            "group": "NGI_TR_step",
+            "Date": "2016-02-15 20:02:58",
+            "TransIncrease": 3
+        },
+        {
+            "group": "NGI_TR_total",
+            "Date": "2016-02-15 20:06:58",
+            "Cumulative": 2714
+        },
+        {
+            "group": "NGI_TR_step",
+            "Date": "2016-02-15 20:06:58",
+            "TransIncrease": 5
+        },
+        {
+            "group": "NGI_TR_total",
+            "Date": "2016-02-15 20:13:58",
+            "Cumulative": 2722
+        },
+        {
+            "group": "NGI_TR_step",
+            "Date": "2016-02-15 20:13:58",
+            "TransIncrease": 8
+        },
+        {
+            "group": "NGI_TR_total",
+            "Date": "2016-02-15 20:18:38",
+            "Cumulative": 2745
+        },
+        {
+            "group": "NGI_TR_step",
+            "Date": "2016-02-15 20:18:38",
+            "TransIncrease": 23
+        },
+        {
+            "group": "NGI_TR_total",
+            "Date": "2016-02-15 20:23:38",
+            "Cumulative": 2755
+        },
+        {
+            "group": "NGI_TR_step",
+            "Date": "2016-02-15 20:23:38",
+            "TransIncrease": 10
+        },
+        {
+            "group": "NGI_TR_total",
+            "Date": "2016-02-15 20:28:19",
+            "Cumulative": 2763
+        },
+        {
+            "group": "NGI_TR_step",
+            "Date": "2016-02-15 20:28:19",
+            "TransIncrease": 8
+        },
+        {
+            "group": "NGI_TR_total",
+            "Date": "2016-02-15 20:33:59",
+            "Cumulative": 2772
+        },
+        {
+            "group": "NGI_TR_step",
+            "Date": "2016-02-15 20:33:59",
+            "TransIncrease": 9
+        },
+        {
+            "group": "NGI_TR_total",
+            "Date": "2016-02-15 20:38:59",
+            "Cumulative": 2791
+        },
+        {
+            "group": "NGI_TR_step",
+            "Date": "2016-02-15 20:38:59",
+            "TransIncrease": 19
+        },
+        {
+            "group": "NGI_TR_total",
+            "Date": "2016-02-15 20:42:39",
+            "Cumulative": 2798
+        },
+        {
+            "group": "NGI_TR_step",
+            "Date": "2016-02-15 20:42:39",
+            "TransIncrease": 7
+        },
+        {
+            "group": "NGI_TR_total",
+            "Date": "2016-02-15 20:46:59",
+            "Cumulative": 2803
+        },
+        {
+            "group": "NGI_TR_step",
+            "Date": "2016-02-15 20:46:59",
+            "TransIncrease": 5
+        },
+        {
+            "group": "NGI_TR_total",
+            "Date": "2016-02-15 20:53:20",
+            "Cumulative": 2813
+        },
+        {
+            "group": "NGI_TR_step",
+            "Date": "2016-02-15 20:53:20",
+            "TransIncrease": 10
+        },
+        {
+            "group": "NGI_TR_total",
+            "Date": "2016-02-15 20:58:20",
+            "Cumulative": 2824
+        },
+        {
+            "group": "NGI_TR_step",
+            "Date": "2016-02-15 20:58:20",
+            "TransIncrease": 11
+        },
+        {
+            "group": "NGI_TR_total",
+            "Date": "2016-02-15 21:04:00",
+            "Cumulative": 2838
+        },
+        {
+            "group": "NGI_TR_step",
+            "Date": "2016-02-15 21:04:00",
+            "TransIncrease": 14
+        },
+        {
+            "group": "NGI_TR_total",
+            "Date": "2016-02-15 21:09:00",
+            "Cumulative": 2848
+        },
+        {
+            "group": "NGI_TR_step",
+            "Date": "2016-02-15 21:09:00",
+            "TransIncrease": 10
+        },
+        {
+            "group": "NGI_TR_total",
+            "Date": "2016-02-15 21:13:40",
+            "Cumulative": 2855
+        },
+        {
+            "group": "NGI_TR_step",
+            "Date": "2016-02-15 21:13:40",
+            "TransIncrease": 7
+        },
+        {
+            "group": "NGI_TR_total",
+            "Date": "2016-02-15 21:19:00",
+            "Cumulative": 2860
+        },
+        {
+            "group": "NGI_TR_step",
+            "Date": "2016-02-15 21:19:00",
+            "TransIncrease": 5
+        },
+        {
+            "group": "NGI_TR_total",
+            "Date": "2016-02-15 21:24:01",
+            "Cumulative": 2868
+        },
+        {
+            "group": "NGI_TR_step",
+            "Date": "2016-02-15 21:24:01",
+            "TransIncrease": 8
+        },
+        {
+            "group": "NGI_TR_total",
+            "Date": "2016-02-15 21:29:01",
+            "Cumulative": 2874
+        },
+        {
+            "group": "NGI_TR_step",
+            "Date": "2016-02-15 21:29:01",
+            "TransIncrease": 6
+        },
+        {
+            "group": "NGI_TR_total",
+            "Date": "2016-02-15 21:33:41",
+            "Cumulative": 2883
+        },
+        {
+            "group": "NGI_TR_step",
+            "Date": "2016-02-15 21:33:41",
+            "TransIncrease": 9
+        },
+        {
+            "group": "NGI_TR_total",
+            "Date": "2016-02-15 21:39:01",
+            "Cumulative": 2906
+        },
+        {
+            "group": "NGI_TR_step",
+            "Date": "2016-02-15 21:39:01",
+            "TransIncrease": 23
+        },
+        {
+            "group": "NGI_TR_total",
+            "Date": "2016-02-15 21:44:01",
+            "Cumulative": 2918
+        },
+        {
+            "group": "NGI_TR_step",
+            "Date": "2016-02-15 21:44:01",
+            "TransIncrease": 12
+        },
+        {
+            "group": "NGI_TR_total",
+            "Date": "2016-02-15 21:48:41",
+            "Cumulative": 2934
+        },
+        {
+            "group": "NGI_TR_step",
+            "Date": "2016-02-15 21:48:41",
+            "TransIncrease": 16
+        },
+        {
+            "group": "NGI_TR_total",
+            "Date": "2016-02-15 21:53:42",
+            "Cumulative": 2953
+        },
+        {
+            "group": "NGI_TR_step",
+            "Date": "2016-02-15 21:53:42",
+            "TransIncrease": 19
+        },
+        {
+            "group": "NGI_TR_total",
+            "Date": "2016-02-15 21:58:42",
+            "Cumulative": 2965
+        },
+        {
+            "group": "NGI_TR_step",
+            "Date": "2016-02-15 21:58:42",
+            "TransIncrease": 12
+        },
+        {
+            "group": "NGI_TR_total",
+            "Date": "2016-02-15 22:04:02",
+            "Cumulative": 2975
+        },
+        {
+            "group": "NGI_TR_step",
+            "Date": "2016-02-15 22:04:02",
+            "TransIncrease": 10
+        },
+        {
+            "group": "NGI_TR_total",
+            "Date": "2016-02-15 22:08:22",
+            "Cumulative": 2989
+        },
+        {
+            "group": "NGI_TR_step",
+            "Date": "2016-02-15 22:08:22",
+            "TransIncrease": 14
+        },
+        {
+            "group": "NGI_TR_total",
+            "Date": "2016-02-15 22:13:02",
+            "Cumulative": 2998
+        },
+        {
+            "group": "NGI_TR_step",
+            "Date": "2016-02-15 22:13:02",
+            "TransIncrease": 9
+        },
+        {
+            "group": "NGI_TR_total",
+            "Date": "2016-02-15 22:18:43",
+            "Cumulative": 3009
+        },
+        {
+            "group": "NGI_TR_step",
+            "Date": "2016-02-15 22:18:43",
+            "TransIncrease": 11
+        },
+        {
+            "group": "NGI_TR_total",
+            "Date": "2016-02-15 22:23:43",
+            "Cumulative": 3018
+        },
+        {
+            "group": "NGI_TR_step",
+            "Date": "2016-02-15 22:23:43",
+            "TransIncrease": 9
+        },
+        {
+            "group": "NGI_TR_total",
+            "Date": "2016-02-15 22:28:43",
+            "Cumulative": 3028
+        },
+        {
+            "group": "NGI_TR_step",
+            "Date": "2016-02-15 22:28:43",
+            "TransIncrease": 10
+        },
+        {
+            "group": "NGI_TR_total",
+            "Date": "2016-02-15 22:33:23",
+            "Cumulative": 3035
+        },
+        {
+            "group": "NGI_TR_step",
+            "Date": "2016-02-15 22:33:23",
+            "TransIncrease": 7
+        },
+        {
+            "group": "NGI_TR_total",
+            "Date": "2016-02-15 22:38:43",
+            "Cumulative": 3051
+        },
+        {
+            "group": "NGI_TR_step",
+            "Date": "2016-02-15 22:38:43",
+            "TransIncrease": 16
+        },
+        {
+            "group": "NGI_TR_total",
+            "Date": "2016-02-15 22:43:43",
+            "Cumulative": 3060
+        },
+        {
+            "group": "NGI_TR_step",
+            "Date": "2016-02-15 22:43:43",
+            "TransIncrease": 9
+        },
+        {
+            "group": "NGI_TR_total",
+            "Date": "2016-02-15 22:47:24",
+            "Cumulative": 3068
+        },
+        {
+            "group": "NGI_TR_step",
+            "Date": "2016-02-15 22:47:24",
+            "TransIncrease": 8
+        },
+        {
+            "group": "NGI_TR_total",
+            "Date": "2016-02-15 22:53:24",
+            "Cumulative": 3078
+        },
+        {
+            "group": "NGI_TR_step",
+            "Date": "2016-02-15 22:53:24",
+            "TransIncrease": 10
+        },
+        {
+            "group": "NGI_TR_total",
+            "Date": "2016-02-15 22:58:44",
+            "Cumulative": 3090
+        },
+        {
+            "group": "NGI_TR_step",
+            "Date": "2016-02-15 22:58:44",
+            "TransIncrease": 12
+        },
+        {
+            "group": "NGI_TR_total",
+            "Date": "2016-02-15 23:03:24",
+            "Cumulative": 3108
+        },
+        {
+            "group": "NGI_TR_step",
+            "Date": "2016-02-15 23:03:24",
+            "TransIncrease": 18
+        },
+        {
+            "group": "NGI_TR_total",
+            "Date": "2016-02-15 23:08:25",
+            "Cumulative": 3117
+        },
+        {
+            "group": "NGI_TR_step",
+            "Date": "2016-02-15 23:08:25",
+            "TransIncrease": 9
+        },
+        {
+            "group": "NGI_TR_total",
+            "Date": "2016-02-15 23:12:45",
+            "Cumulative": 3127
+        },
+        {
+            "group": "NGI_TR_step",
+            "Date": "2016-02-15 23:12:45",
+            "TransIncrease": 10
+        },
+        {
+            "group": "NGI_TR_total",
+            "Date": "2016-02-15 23:18:25",
+            "Cumulative": 3132
+        },
+        {
+            "group": "NGI_TR_step",
+            "Date": "2016-02-15 23:18:25",
+            "TransIncrease": 5
+        },
+        {
+            "group": "NGI_TR_total",
+            "Date": "2016-02-15 23:23:25",
+            "Cumulative": 3135
+        },
+        {
+            "group": "NGI_TR_step",
+            "Date": "2016-02-15 23:23:25",
+            "TransIncrease": 3
+        },
+        {
+            "group": "NGI_TR_total",
+            "Date": "2016-02-15 23:28:05",
+            "Cumulative": 3145
+        },
+        {
+            "group": "NGI_TR_step",
+            "Date": "2016-02-15 23:28:05",
+            "TransIncrease": 10
+        },
+        {
+            "group": "NGI_TR_total",
+            "Date": "2016-02-15 23:33:45",
+            "Cumulative": 3154
+        },
+        {
+            "group": "NGI_TR_step",
+            "Date": "2016-02-15 23:33:45",
+            "TransIncrease": 9
+        },
+        {
+            "group": "NGI_TR_total",
+            "Date": "2016-02-15 23:38:46",
+            "Cumulative": 3165
+        },
+        {
+            "group": "NGI_TR_step",
+            "Date": "2016-02-15 23:38:46",
+            "TransIncrease": 11
+        },
+        {
+            "group": "NGI_TR_total",
+            "Date": "2016-02-15 23:43:26",
+            "Cumulative": 3181
+        },
+        {
+            "group": "NGI_TR_step",
+            "Date": "2016-02-15 23:43:26",
+            "TransIncrease": 16
+        },
+        {
+            "group": "NGI_TR_total",
+            "Date": "2016-02-15 23:48:46",
+            "Cumulative": 3194
+        },
+        {
+            "group": "NGI_TR_step",
+            "Date": "2016-02-15 23:48:46",
+            "TransIncrease": 13
+        },
+        {
+            "group": "NGI_TR_total",
+            "Date": "2016-02-15 23:53:46",
+            "Cumulative": 3215
+        },
+        {
+            "group": "NGI_TR_step",
+            "Date": "2016-02-15 23:53:46",
+            "TransIncrease": 21
+        },
+        {
+            "group": "NGI_TR_total",
+            "Date": "2016-02-15 23:58:06",
+            "Cumulative": 3230
+        },
+        {
+            "group": "NGI_TR_step",
+            "Date": "2016-02-15 23:58:06",
+            "TransIncrease": 15
+        }
+    ],
+    "SOA_STAT": [
+        {
+            "group": "SOA_STAT_total",
+            "Date": "2016-02-15 11:44:57",
+            "Cumulative": 1
+        },
+        {
+            "group": "SOA_STAT_total",
+            "Date": "2016-02-15 17:08:51",
+            "Cumulative": 1
+        },
+        {
+            "group": "SOA_STAT_total",
+            "Date": "2016-02-15 17:13:51",
+            "Cumulative": 1
+        },
+        {
+            "group": "SOA_STAT_total",
+            "Date": "2016-02-15 17:18:31",
+            "Cumulative": 1
+        },
+        {
+            "group": "SOA_STAT_total",
+            "Date": "2016-02-15 17:23:11",
+            "Cumulative": 1
+        },
+        {
+            "group": "SOA_STAT_total",
+            "Date": "2016-02-15 17:28:52",
+            "Cumulative": 1
+        },
+        {
+            "group": "SOA_STAT_total",
+            "Date": "2016-02-15 17:32:11",
+            "Cumulative": 1
+        },
+        {
+            "group": "SOA_STAT_total",
+            "Date": "2016-02-15 17:38:52",
+            "Cumulative": 1
+        },
+        {
+            "group": "SOA_STAT_total",
+            "Date": "2016-02-15 17:43:52",
+            "Cumulative": 1
+        },
+        {
+            "group": "SOA_STAT_total",
+            "Date": "2016-02-15 17:48:12",
+            "Cumulative": 1
+        },
+        {
+            "group": "SOA_STAT_total",
+            "Date": "2016-02-15 17:53:53",
+            "Cumulative": 1
+        },
+        {
+            "group": "SOA_STAT_total",
+            "Date": "2016-02-15 17:58:33",
+            "Cumulative": 1
+        },
+        {
+            "group": "SOA_STAT_total",
+            "Date": "2016-02-15 18:02:33",
+            "Cumulative": 1
+        },
+        {
+            "group": "SOA_STAT_total",
+            "Date": "2016-02-15 18:08:33",
+            "Cumulative": 1
+        },
+        {
+            "group": "SOA_STAT_total",
+            "Date": "2016-02-15 18:13:53",
+            "Cumulative": 1
+        },
+        {
+            "group": "SOA_STAT_total",
+            "Date": "2016-02-15 18:18:54",
+            "Cumulative": 1
+        },
+        {
+            "group": "SOA_STAT_total",
+            "Date": "2016-02-15 18:23:34",
+            "Cumulative": 1
+        },
+        {
+            "group": "SOA_STAT_total",
+            "Date": "2016-02-15 18:27:54",
+            "Cumulative": 1
+        },
+        {
+            "group": "SOA_STAT_total",
+            "Date": "2016-02-15 18:32:54",
+            "Cumulative": 1
+        },
+        {
+            "group": "SOA_STAT_total",
+            "Date": "2016-02-15 18:38:54",
+            "Cumulative": 1
+        },
+        {
+            "group": "SOA_STAT_total",
+            "Date": "2016-02-15 18:43:54",
+            "Cumulative": 1
+        },
+        {
+            "group": "SOA_STAT_total",
+            "Date": "2016-02-15 18:48:55",
+            "Cumulative": 1
+        },
+        {
+            "group": "SOA_STAT_total",
+            "Date": "2016-02-15 18:53:55",
+            "Cumulative": 1
+        },
+        {
+            "group": "SOA_STAT_total",
+            "Date": "2016-02-15 18:58:55",
+            "Cumulative": 1
+        },
+        {
+            "group": "SOA_STAT_total",
+            "Date": "2016-02-15 19:03:55",
+            "Cumulative": 1
+        },
+        {
+            "group": "SOA_STAT_total",
+            "Date": "2016-02-15 19:07:35",
+            "Cumulative": 1
+        },
+        {
+            "group": "SOA_STAT_total",
+            "Date": "2016-02-15 19:13:56",
+            "Cumulative": 1
+        },
+        {
+            "group": "SOA_STAT_total",
+            "Date": "2016-02-15 19:18:56",
+            "Cumulative": 1
+        },
+        {
+            "group": "SOA_STAT_total",
+            "Date": "2016-02-15 19:22:16",
+            "Cumulative": 1
+        },
+        {
+            "group": "SOA_STAT_total",
+            "Date": "2016-02-15 19:28:56",
+            "Cumulative": 1
+        },
+        {
+            "group": "SOA_STAT_total",
+            "Date": "2016-02-15 19:32:16",
+            "Cumulative": 1
+        },
+        {
+            "group": "SOA_STAT_total",
+            "Date": "2016-02-15 19:38:17",
+            "Cumulative": 1
+        },
+        {
+            "group": "SOA_STAT_total",
+            "Date": "2016-02-15 19:43:37",
+            "Cumulative": 1
+        },
+        {
+            "group": "SOA_STAT_total",
+            "Date": "2016-02-15 19:48:57",
+            "Cumulative": 1
+        },
+        {
+            "group": "SOA_STAT_total",
+            "Date": "2016-02-15 19:53:57",
+            "Cumulative": 1
+        },
+        {
+            "group": "SOA_STAT_total",
+            "Date": "2016-02-15 19:58:57",
+            "Cumulative": 1
+        },
+        {
+            "group": "SOA_STAT_total",
+            "Date": "2016-02-15 20:02:58",
+            "Cumulative": 1
+        },
+        {
+            "group": "SOA_STAT_total",
+            "Date": "2016-02-15 20:06:58",
+            "Cumulative": 1
+        },
+        {
+            "group": "SOA_STAT_total",
+            "Date": "2016-02-15 20:13:58",
+            "Cumulative": 1
+        },
+        {
+            "group": "SOA_STAT_total",
+            "Date": "2016-02-15 20:18:38",
+            "Cumulative": 1
+        },
+        {
+            "group": "SOA_STAT_total",
+            "Date": "2016-02-15 20:23:38",
+            "Cumulative": 1
+        },
+        {
+            "group": "SOA_STAT_total",
+            "Date": "2016-02-15 20:28:19",
+            "Cumulative": 1
+        },
+        {
+            "group": "SOA_STAT_total",
+            "Date": "2016-02-15 20:33:59",
+            "Cumulative": 1
+        },
+        {
+            "group": "SOA_STAT_total",
+            "Date": "2016-02-15 20:38:59",
+            "Cumulative": 1
+        },
+        {
+            "group": "SOA_STAT_total",
+            "Date": "2016-02-15 20:42:39",
+            "Cumulative": 1
+        },
+        {
+            "group": "SOA_STAT_total",
+            "Date": "2016-02-15 20:46:59",
+            "Cumulative": 1
+        },
+        {
+            "group": "SOA_STAT_total",
+            "Date": "2016-02-15 20:53:20",
+            "Cumulative": 1
+        },
+        {
+            "group": "SOA_STAT_total",
+            "Date": "2016-02-15 20:58:20",
+            "Cumulative": 1
+        },
+        {
+            "group": "SOA_STAT_total",
+            "Date": "2016-02-15 21:04:00",
+            "Cumulative": 1
+        },
+        {
+            "group": "SOA_STAT_total",
+            "Date": "2016-02-15 21:09:00",
+            "Cumulative": 1
+        },
+        {
+            "group": "SOA_STAT_total",
+            "Date": "2016-02-15 21:13:40",
+            "Cumulative": 1
+        },
+        {
+            "group": "SOA_STAT_total",
+            "Date": "2016-02-15 21:19:00",
+            "Cumulative": 1
+        },
+        {
+            "group": "SOA_STAT_total",
+            "Date": "2016-02-15 21:24:01",
+            "Cumulative": 1
+        },
+        {
+            "group": "SOA_STAT_total",
+            "Date": "2016-02-15 21:29:01",
+            "Cumulative": 1
+        },
+        {
+            "group": "SOA_STAT_total",
+            "Date": "2016-02-15 21:33:41",
+            "Cumulative": 1
+        },
+        {
+            "group": "SOA_STAT_total",
+            "Date": "2016-02-15 21:39:01",
+            "Cumulative": 1
+        },
+        {
+            "group": "SOA_STAT_total",
+            "Date": "2016-02-15 21:44:01",
+            "Cumulative": 1
+        },
+        {
+            "group": "SOA_STAT_total",
+            "Date": "2016-02-15 21:48:41",
+            "Cumulative": 1
+        },
+        {
+            "group": "SOA_STAT_total",
+            "Date": "2016-02-15 21:53:42",
+            "Cumulative": 1
+        },
+        {
+            "group": "SOA_STAT_total",
+            "Date": "2016-02-15 21:58:42",
+            "Cumulative": 1
+        },
+        {
+            "group": "SOA_STAT_total",
+            "Date": "2016-02-15 22:04:02",
+            "Cumulative": 1
+        },
+        {
+            "group": "SOA_STAT_total",
+            "Date": "2016-02-15 22:08:22",
+            "Cumulative": 1
+        },
+        {
+            "group": "SOA_STAT_total",
+            "Date": "2016-02-15 22:13:02",
+            "Cumulative": 1
+        },
+        {
+            "group": "SOA_STAT_total",
+            "Date": "2016-02-15 22:18:43",
+            "Cumulative": 1
+        },
+        {
+            "group": "SOA_STAT_total",
+            "Date": "2016-02-15 22:23:43",
+            "Cumulative": 1
+        },
+        {
+            "group": "SOA_STAT_total",
+            "Date": "2016-02-15 22:28:43",
+            "Cumulative": 1
+        },
+        {
+            "group": "SOA_STAT_total",
+            "Date": "2016-02-15 22:33:23",
+            "Cumulative": 1
+        },
+        {
+            "group": "SOA_STAT_total",
+            "Date": "2016-02-15 22:38:43",
+            "Cumulative": 1
+        },
+        {
+            "group": "SOA_STAT_total",
+            "Date": "2016-02-15 22:43:43",
+            "Cumulative": 1
+        },
+        {
+            "group": "SOA_STAT_total",
+            "Date": "2016-02-15 22:47:24",
+            "Cumulative": 1
+        },
+        {
+            "group": "SOA_STAT_total",
+            "Date": "2016-02-15 22:53:24",
+            "Cumulative": 1
+        },
+        {
+            "group": "SOA_STAT_total",
+            "Date": "2016-02-15 22:58:44",
+            "Cumulative": 1
+        },
+        {
+            "group": "SOA_STAT_total",
+            "Date": "2016-02-15 23:03:24",
+            "Cumulative": 1
+        },
+        {
+            "group": "SOA_STAT_total",
+            "Date": "2016-02-15 23:08:25",
+            "Cumulative": 1
+        },
+        {
+            "group": "SOA_STAT_total",
+            "Date": "2016-02-15 23:12:45",
+            "Cumulative": 1
+        },
+        {
+            "group": "SOA_STAT_total",
+            "Date": "2016-02-15 23:18:25",
+            "Cumulative": 1
+        },
+        {
+            "group": "SOA_STAT_total",
+            "Date": "2016-02-15 23:23:25",
+            "Cumulative": 1
+        },
+        {
+            "group": "SOA_STAT_total",
+            "Date": "2016-02-15 23:28:05",
+            "Cumulative": 1
+        },
+        {
+            "group": "SOA_STAT_total",
+            "Date": "2016-02-15 23:33:45",
+            "Cumulative": 1
+        },
+        {
+            "group": "SOA_STAT_total",
+            "Date": "2016-02-15 23:38:46",
+            "Cumulative": 1
+        },
+        {
+            "group": "SOA_STAT_total",
+            "Date": "2016-02-15 23:43:26",
+            "Cumulative": 1
+        },
+        {
+            "group": "SOA_STAT_total",
+            "Date": "2016-02-15 23:48:46",
+            "Cumulative": 1
+        },
+        {
+            "group": "SOA_STAT_total",
+            "Date": "2016-02-15 23:53:46",
+            "Cumulative": 1
+        },
+        {
+            "group": "SOA_STAT_total",
+            "Date": "2016-02-15 23:58:06",
+            "Cumulative": 1
+        }
+    ],
+    "TIER_STAT": [
+        {
+            "group": "TIER_STAT_total",
+            "Date": "2016-02-15 11:44:57",
+            "Cumulative": 1
+        },
+        {
+            "group": "TIER_STAT_total",
+            "Date": "2016-02-15 17:08:51",
+            "Cumulative": 1
+        },
+        {
+            "group": "TIER_STAT_total",
+            "Date": "2016-02-15 17:13:51",
+            "Cumulative": 1
+        },
+        {
+            "group": "TIER_STAT_total",
+            "Date": "2016-02-15 17:18:31",
+            "Cumulative": 1
+        },
+        {
+            "group": "TIER_STAT_total",
+            "Date": "2016-02-15 17:23:11",
+            "Cumulative": 1
+        },
+        {
+            "group": "TIER_STAT_total",
+            "Date": "2016-02-15 17:28:52",
+            "Cumulative": 1
+        },
+        {
+            "group": "TIER_STAT_total",
+            "Date": "2016-02-15 17:32:11",
+            "Cumulative": 1
+        },
+        {
+            "group": "TIER_STAT_total",
+            "Date": "2016-02-15 17:38:52",
+            "Cumulative": 1
+        },
+        {
+            "group": "TIER_STAT_total",
+            "Date": "2016-02-15 17:43:52",
+            "Cumulative": 1
+        },
+        {
+            "group": "TIER_STAT_total",
+            "Date": "2016-02-15 17:48:12",
+            "Cumulative": 1
+        },
+        {
+            "group": "TIER_STAT_total",
+            "Date": "2016-02-15 17:53:53",
+            "Cumulative": 1
+        },
+        {
+            "group": "TIER_STAT_total",
+            "Date": "2016-02-15 17:58:33",
+            "Cumulative": 1
+        },
+        {
+            "group": "TIER_STAT_total",
+            "Date": "2016-02-15 18:02:33",
+            "Cumulative": 1
+        },
+        {
+            "group": "TIER_STAT_total",
+            "Date": "2016-02-15 18:08:33",
+            "Cumulative": 1
+        },
+        {
+            "group": "TIER_STAT_total",
+            "Date": "2016-02-15 18:13:53",
+            "Cumulative": 1
+        },
+        {
+            "group": "TIER_STAT_total",
+            "Date": "2016-02-15 18:18:54",
+            "Cumulative": 1
+        },
+        {
+            "group": "TIER_STAT_total",
+            "Date": "2016-02-15 18:23:34",
+            "Cumulative": 1
+        },
+        {
+            "group": "TIER_STAT_total",
+            "Date": "2016-02-15 18:27:54",
+            "Cumulative": 1
+        },
+        {
+            "group": "TIER_STAT_total",
+            "Date": "2016-02-15 18:32:54",
+            "Cumulative": 1
+        },
+        {
+            "group": "TIER_STAT_total",
+            "Date": "2016-02-15 18:38:54",
+            "Cumulative": 1
+        },
+        {
+            "group": "TIER_STAT_total",
+            "Date": "2016-02-15 18:43:54",
+            "Cumulative": 1
+        },
+        {
+            "group": "TIER_STAT_total",
+            "Date": "2016-02-15 18:48:55",
+            "Cumulative": 1
+        },
+        {
+            "group": "TIER_STAT_total",
+            "Date": "2016-02-15 18:53:55",
+            "Cumulative": 1
+        },
+        {
+            "group": "TIER_STAT_total",
+            "Date": "2016-02-15 18:58:55",
+            "Cumulative": 1
+        },
+        {
+            "group": "TIER_STAT_total",
+            "Date": "2016-02-15 19:03:55",
+            "Cumulative": 1
+        },
+        {
+            "group": "TIER_STAT_total",
+            "Date": "2016-02-15 19:07:35",
+            "Cumulative": 1
+        },
+        {
+            "group": "TIER_STAT_total",
+            "Date": "2016-02-15 19:13:56",
+            "Cumulative": 1
+        },
+        {
+            "group": "TIER_STAT_total",
+            "Date": "2016-02-15 19:18:56",
+            "Cumulative": 1
+        },
+        {
+            "group": "TIER_STAT_total",
+            "Date": "2016-02-15 19:22:16",
+            "Cumulative": 1
+        },
+        {
+            "group": "TIER_STAT_total",
+            "Date": "2016-02-15 19:28:56",
+            "Cumulative": 1
+        },
+        {
+            "group": "TIER_STAT_total",
+            "Date": "2016-02-15 19:32:16",
+            "Cumulative": 1
+        },
+        {
+            "group": "TIER_STAT_total",
+            "Date": "2016-02-15 19:38:17",
+            "Cumulative": 1
+        },
+        {
+            "group": "TIER_STAT_total",
+            "Date": "2016-02-15 19:43:37",
+            "Cumulative": 1
+        },
+        {
+            "group": "TIER_STAT_total",
+            "Date": "2016-02-15 19:48:57",
+            "Cumulative": 1
+        },
+        {
+            "group": "TIER_STAT_total",
+            "Date": "2016-02-15 19:53:57",
+            "Cumulative": 1
+        },
+        {
+            "group": "TIER_STAT_total",
+            "Date": "2016-02-15 19:58:57",
+            "Cumulative": 1
+        },
+        {
+            "group": "TIER_STAT_total",
+            "Date": "2016-02-15 20:02:58",
+            "Cumulative": 1
+        },
+        {
+            "group": "TIER_STAT_total",
+            "Date": "2016-02-15 20:06:58",
+            "Cumulative": 1
+        },
+        {
+            "group": "TIER_STAT_total",
+            "Date": "2016-02-15 20:13:58",
+            "Cumulative": 1
+        },
+        {
+            "group": "TIER_STAT_total",
+            "Date": "2016-02-15 20:18:38",
+            "Cumulative": 1
+        },
+        {
+            "group": "TIER_STAT_total",
+            "Date": "2016-02-15 20:23:38",
+            "Cumulative": 1
+        },
+        {
+            "group": "TIER_STAT_total",
+            "Date": "2016-02-15 20:28:19",
+            "Cumulative": 1
+        },
+        {
+            "group": "TIER_STAT_total",
+            "Date": "2016-02-15 20:33:59",
+            "Cumulative": 1
+        },
+        {
+            "group": "TIER_STAT_total",
+            "Date": "2016-02-15 20:38:59",
+            "Cumulative": 1
+        },
+        {
+            "group": "TIER_STAT_total",
+            "Date": "2016-02-15 20:42:39",
+            "Cumulative": 1
+        },
+        {
+            "group": "TIER_STAT_total",
+            "Date": "2016-02-15 20:46:59",
+            "Cumulative": 1
+        },
+        {
+            "group": "TIER_STAT_total",
+            "Date": "2016-02-15 20:53:20",
+            "Cumulative": 1
+        },
+        {
+            "group": "TIER_STAT_total",
+            "Date": "2016-02-15 20:58:20",
+            "Cumulative": 1
+        },
+        {
+            "group": "TIER_STAT_total",
+            "Date": "2016-02-15 21:04:00",
+            "Cumulative": 1
+        },
+        {
+            "group": "TIER_STAT_total",
+            "Date": "2016-02-15 21:09:00",
+            "Cumulative": 1
+        },
+        {
+            "group": "TIER_STAT_total",
+            "Date": "2016-02-15 21:13:40",
+            "Cumulative": 1
+        },
+        {
+            "group": "TIER_STAT_total",
+            "Date": "2016-02-15 21:19:00",
+            "Cumulative": 1
+        },
+        {
+            "group": "TIER_STAT_total",
+            "Date": "2016-02-15 21:24:01",
+            "Cumulative": 1
+        },
+        {
+            "group": "TIER_STAT_total",
+            "Date": "2016-02-15 21:29:01",
+            "Cumulative": 1
+        },
+        {
+            "group": "TIER_STAT_total",
+            "Date": "2016-02-15 21:33:41",
+            "Cumulative": 1
+        },
+        {
+            "group": "TIER_STAT_total",
+            "Date": "2016-02-15 21:39:01",
+            "Cumulative": 1
+        },
+        {
+            "group": "TIER_STAT_total",
+            "Date": "2016-02-15 21:44:01",
+            "Cumulative": 1
+        },
+        {
+            "group": "TIER_STAT_total",
+            "Date": "2016-02-15 21:48:41",
+            "Cumulative": 1
+        },
+        {
+            "group": "TIER_STAT_total",
+            "Date": "2016-02-15 21:53:42",
+            "Cumulative": 1
+        },
+        {
+            "group": "TIER_STAT_total",
+            "Date": "2016-02-15 21:58:42",
+            "Cumulative": 1
+        },
+        {
+            "group": "TIER_STAT_total",
+            "Date": "2016-02-15 22:04:02",
+            "Cumulative": 1
+        },
+        {
+            "group": "TIER_STAT_total",
+            "Date": "2016-02-15 22:08:22",
+            "Cumulative": 1
+        },
+        {
+            "group": "TIER_STAT_total",
+            "Date": "2016-02-15 22:13:02",
+            "Cumulative": 1
+        },
+        {
+            "group": "TIER_STAT_total",
+            "Date": "2016-02-15 22:18:43",
+            "Cumulative": 1
+        },
+        {
+            "group": "TIER_STAT_total",
+            "Date": "2016-02-15 22:23:43",
+            "Cumulative": 1
+        },
+        {
+            "group": "TIER_STAT_total",
+            "Date": "2016-02-15 22:28:43",
+            "Cumulative": 1
+        },
+        {
+            "group": "TIER_STAT_total",
+            "Date": "2016-02-15 22:33:23",
+            "Cumulative": 1
+        },
+        {
+            "group": "TIER_STAT_total",
+            "Date": "2016-02-15 22:38:43",
+            "Cumulative": 1
+        },
+        {
+            "group": "TIER_STAT_total",
+            "Date": "2016-02-15 22:43:43",
+            "Cumulative": 1
+        },
+        {
+            "group": "TIER_STAT_total",
+            "Date": "2016-02-15 22:47:24",
+            "Cumulative": 1
+        },
+        {
+            "group": "TIER_STAT_total",
+            "Date": "2016-02-15 22:53:24",
+            "Cumulative": 1
+        },
+        {
+            "group": "TIER_STAT_total",
+            "Date": "2016-02-15 22:58:44",
+            "Cumulative": 1
+        },
+        {
+            "group": "TIER_STAT_total",
+            "Date": "2016-02-15 23:03:24",
+            "Cumulative": 1
+        },
+        {
+            "group": "TIER_STAT_total",
+            "Date": "2016-02-15 23:08:25",
+            "Cumulative": 1
+        },
+        {
+            "group": "TIER_STAT_total",
+            "Date": "2016-02-15 23:12:45",
+            "Cumulative": 1
+        },
+        {
+            "group": "TIER_STAT_total",
+            "Date": "2016-02-15 23:18:25",
+            "Cumulative": 1
+        },
+        {
+            "group": "TIER_STAT_total",
+            "Date": "2016-02-15 23:23:25",
+            "Cumulative": 1
+        },
+        {
+            "group": "TIER_STAT_total",
+            "Date": "2016-02-15 23:28:05",
+            "Cumulative": 1
+        },
+        {
+            "group": "TIER_STAT_total",
+            "Date": "2016-02-15 23:33:45",
+            "Cumulative": 1
+        },
+        {
+            "group": "TIER_STAT_total",
+            "Date": "2016-02-15 23:38:46",
+            "Cumulative": 1
+        },
+        {
+            "group": "TIER_STAT_total",
+            "Date": "2016-02-15 23:43:26",
+            "Cumulative": 1
+        },
+        {
+            "group": "TIER_STAT_total",
+            "Date": "2016-02-15 23:48:46",
+            "Cumulative": 1
+        },
+        {
+            "group": "TIER_STAT_total",
+            "Date": "2016-02-15 23:53:46",
+            "Cumulative": 1
+        },
+        {
+            "group": "TIER_STAT_total",
+            "Date": "2016-02-15 23:58:06",
+            "Cumulative": 1
+        }
+    ],
+    "TB_STAT": [
+        {
+            "group": "TB_STAT_total",
+            "Date": "2016-02-15 11:44:57",
+            "Cumulative": 1
+        },
+        {
+            "group": "TB_STAT_total",
+            "Date": "2016-02-15 17:08:51",
+            "Cumulative": 1
+        },
+        {
+            "group": "TB_STAT_total",
+            "Date": "2016-02-15 17:13:51",
+            "Cumulative": 1
+        },
+        {
+            "group": "TB_STAT_total",
+            "Date": "2016-02-15 17:18:31",
+            "Cumulative": 1
+        },
+        {
+            "group": "TB_STAT_total",
+            "Date": "2016-02-15 17:23:11",
+            "Cumulative": 1
+        },
+        {
+            "group": "TB_STAT_total",
+            "Date": "2016-02-15 17:28:52",
+            "Cumulative": 1
+        },
+        {
+            "group": "TB_STAT_total",
+            "Date": "2016-02-15 17:32:11",
+            "Cumulative": 1
+        },
+        {
+            "group": "TB_STAT_total",
+            "Date": "2016-02-15 17:38:52",
+            "Cumulative": 1
+        },
+        {
+            "group": "TB_STAT_total",
+            "Date": "2016-02-15 17:43:52",
+            "Cumulative": 1
+        },
+        {
+            "group": "TB_STAT_total",
+            "Date": "2016-02-15 17:48:12",
+            "Cumulative": 1
+        },
+        {
+            "group": "TB_STAT_total",
+            "Date": "2016-02-15 17:53:53",
+            "Cumulative": 1
+        },
+        {
+            "group": "TB_STAT_total",
+            "Date": "2016-02-15 17:58:33",
+            "Cumulative": 1
+        },
+        {
+            "group": "TB_STAT_total",
+            "Date": "2016-02-15 18:02:33",
+            "Cumulative": 1
+        },
+        {
+            "group": "TB_STAT_total",
+            "Date": "2016-02-15 18:08:33",
+            "Cumulative": 1
+        },
+        {
+            "group": "TB_STAT_total",
+            "Date": "2016-02-15 18:13:53",
+            "Cumulative": 1
+        },
+        {
+            "group": "TB_STAT_total",
+            "Date": "2016-02-15 18:18:54",
+            "Cumulative": 1
+        },
+        {
+            "group": "TB_STAT_total",
+            "Date": "2016-02-15 18:23:34",
+            "Cumulative": 1
+        },
+        {
+            "group": "TB_STAT_total",
+            "Date": "2016-02-15 18:27:54",
+            "Cumulative": 1
+        },
+        {
+            "group": "TB_STAT_total",
+            "Date": "2016-02-15 18:32:54",
+            "Cumulative": 1
+        },
+        {
+            "group": "TB_STAT_total",
+            "Date": "2016-02-15 18:38:54",
+            "Cumulative": 1
+        },
+        {
+            "group": "TB_STAT_total",
+            "Date": "2016-02-15 18:43:54",
+            "Cumulative": 1
+        },
+        {
+            "group": "TB_STAT_total",
+            "Date": "2016-02-15 18:48:55",
+            "Cumulative": 1
+        },
+        {
+            "group": "TB_STAT_total",
+            "Date": "2016-02-15 18:53:55",
+            "Cumulative": 1
+        },
+        {
+            "group": "TB_STAT_total",
+            "Date": "2016-02-15 18:58:55",
+            "Cumulative": 1
+        },
+        {
+            "group": "TB_STAT_total",
+            "Date": "2016-02-15 19:03:55",
+            "Cumulative": 1
+        },
+        {
+            "group": "TB_STAT_total",
+            "Date": "2016-02-15 19:07:35",
+            "Cumulative": 1
+        },
+        {
+            "group": "TB_STAT_total",
+            "Date": "2016-02-15 19:13:56",
+            "Cumulative": 1
+        },
+        {
+            "group": "TB_STAT_total",
+            "Date": "2016-02-15 19:18:56",
+            "Cumulative": 1
+        },
+        {
+            "group": "TB_STAT_total",
+            "Date": "2016-02-15 19:22:16",
+            "Cumulative": 1
+        },
+        {
+            "group": "TB_STAT_total",
+            "Date": "2016-02-15 19:28:56",
+            "Cumulative": 1
+        },
+        {
+            "group": "TB_STAT_total",
+            "Date": "2016-02-15 19:32:16",
+            "Cumulative": 1
+        },
+        {
+            "group": "TB_STAT_total",
+            "Date": "2016-02-15 19:38:17",
+            "Cumulative": 1
+        },
+        {
+            "group": "TB_STAT_total",
+            "Date": "2016-02-15 19:43:37",
+            "Cumulative": 1
+        },
+        {
+            "group": "TB_STAT_total",
+            "Date": "2016-02-15 19:48:57",
+            "Cumulative": 1
+        },
+        {
+            "group": "TB_STAT_total",
+            "Date": "2016-02-15 19:53:57",
+            "Cumulative": 1
+        },
+        {
+            "group": "TB_STAT_total",
+            "Date": "2016-02-15 19:58:57",
+            "Cumulative": 1
+        },
+        {
+            "group": "TB_STAT_total",
+            "Date": "2016-02-15 20:02:58",
+            "Cumulative": 1
+        },
+        {
+            "group": "TB_STAT_total",
+            "Date": "2016-02-15 20:06:58",
+            "Cumulative": 1
+        },
+        {
+            "group": "TB_STAT_total",
+            "Date": "2016-02-15 20:13:58",
+            "Cumulative": 1
+        },
+        {
+            "group": "TB_STAT_total",
+            "Date": "2016-02-15 20:18:38",
+            "Cumulative": 1
+        },
+        {
+            "group": "TB_STAT_total",
+            "Date": "2016-02-15 20:23:38",
+            "Cumulative": 1
+        },
+        {
+            "group": "TB_STAT_total",
+            "Date": "2016-02-15 20:28:19",
+            "Cumulative": 1
+        },
+        {
+            "group": "TB_STAT_total",
+            "Date": "2016-02-15 20:33:59",
+            "Cumulative": 1
+        },
+        {
+            "group": "TB_STAT_total",
+            "Date": "2016-02-15 20:38:59",
+            "Cumulative": 1
+        },
+        {
+            "group": "TB_STAT_total",
+            "Date": "2016-02-15 20:42:39",
+            "Cumulative": 1
+        },
+        {
+            "group": "TB_STAT_total",
+            "Date": "2016-02-15 20:46:59",
+            "Cumulative": 1
+        },
+        {
+            "group": "TB_STAT_total",
+            "Date": "2016-02-15 20:53:20",
+            "Cumulative": 1
+        },
+        {
+            "group": "TB_STAT_total",
+            "Date": "2016-02-15 20:58:20",
+            "Cumulative": 1
+        },
+        {
+            "group": "TB_STAT_total",
+            "Date": "2016-02-15 21:04:00",
+            "Cumulative": 1
+        },
+        {
+            "group": "TB_STAT_total",
+            "Date": "2016-02-15 21:09:00",
+            "Cumulative": 1
+        },
+        {
+            "group": "TB_STAT_total",
+            "Date": "2016-02-15 21:13:40",
+            "Cumulative": 1
+        },
+        {
+            "group": "TB_STAT_total",
+            "Date": "2016-02-15 21:19:00",
+            "Cumulative": 1
+        },
+        {
+            "group": "TB_STAT_total",
+            "Date": "2016-02-15 21:24:01",
+            "Cumulative": 1
+        },
+        {
+            "group": "TB_STAT_total",
+            "Date": "2016-02-15 21:29:01",
+            "Cumulative": 1
+        },
+        {
+            "group": "TB_STAT_total",
+            "Date": "2016-02-15 21:33:41",
+            "Cumulative": 1
+        },
+        {
+            "group": "TB_STAT_total",
+            "Date": "2016-02-15 21:39:01",
+            "Cumulative": 1
+        },
+        {
+            "group": "TB_STAT_total",
+            "Date": "2016-02-15 21:44:01",
+            "Cumulative": 1
+        },
+        {
+            "group": "TB_STAT_total",
+            "Date": "2016-02-15 21:48:41",
+            "Cumulative": 1
+        },
+        {
+            "group": "TB_STAT_total",
+            "Date": "2016-02-15 21:53:42",
+            "Cumulative": 1
+        },
+        {
+            "group": "TB_STAT_total",
+            "Date": "2016-02-15 21:58:42",
+            "Cumulative": 1
+        },
+        {
+            "group": "TB_STAT_total",
+            "Date": "2016-02-15 22:04:02",
+            "Cumulative": 1
+        },
+        {
+            "group": "TB_STAT_total",
+            "Date": "2016-02-15 22:08:22",
+            "Cumulative": 1
+        },
+        {
+            "group": "TB_STAT_total",
+            "Date": "2016-02-15 22:13:02",
+            "Cumulative": 1
+        },
+        {
+            "group": "TB_STAT_total",
+            "Date": "2016-02-15 22:18:43",
+            "Cumulative": 1
+        },
+        {
+            "group": "TB_STAT_total",
+            "Date": "2016-02-15 22:23:43",
+            "Cumulative": 1
+        },
+        {
+            "group": "TB_STAT_total",
+            "Date": "2016-02-15 22:28:43",
+            "Cumulative": 1
+        },
+        {
+            "group": "TB_STAT_total",
+            "Date": "2016-02-15 22:33:23",
+            "Cumulative": 1
+        },
+        {
+            "group": "TB_STAT_total",
+            "Date": "2016-02-15 22:38:43",
+            "Cumulative": 1
+        },
+        {
+            "group": "TB_STAT_total",
+            "Date": "2016-02-15 22:43:43",
+            "Cumulative": 1
+        },
+        {
+            "group": "TB_STAT_total",
+            "Date": "2016-02-15 22:47:24",
+            "Cumulative": 1
+        },
+        {
+            "group": "TB_STAT_total",
+            "Date": "2016-02-15 22:53:24",
+            "Cumulative": 1
+        },
+        {
+            "group": "TB_STAT_total",
+            "Date": "2016-02-15 22:58:44",
+            "Cumulative": 1
+        },
+        {
+            "group": "TB_STAT_total",
+            "Date": "2016-02-15 23:03:24",
+            "Cumulative": 1
+        },
+        {
+            "group": "TB_STAT_total",
+            "Date": "2016-02-15 23:08:25",
+            "Cumulative": 1
+        },
+        {
+            "group": "TB_STAT_total",
+            "Date": "2016-02-15 23:12:45",
+            "Cumulative": 1
+        },
+        {
+            "group": "TB_STAT_total",
+            "Date": "2016-02-15 23:18:25",
+            "Cumulative": 1
+        },
+        {
+            "group": "TB_STAT_total",
+            "Date": "2016-02-15 23:23:25",
+            "Cumulative": 1
+        },
+        {
+            "group": "TB_STAT_total",
+            "Date": "2016-02-15 23:28:05",
+            "Cumulative": 1
+        },
+        {
+            "group": "TB_STAT_total",
+            "Date": "2016-02-15 23:33:45",
+            "Cumulative": 1
+        },
+        {
+            "group": "TB_STAT_total",
+            "Date": "2016-02-15 23:38:46",
+            "Cumulative": 1
+        },
+        {
+            "group": "TB_STAT_total",
+            "Date": "2016-02-15 23:43:26",
+            "Cumulative": 1
+        },
+        {
+            "group": "TB_STAT_total",
+            "Date": "2016-02-15 23:48:46",
+            "Cumulative": 1
+        },
+        {
+            "group": "TB_STAT_total",
+            "Date": "2016-02-15 23:53:46",
+            "Cumulative": 1
+        },
+        {
+            "group": "TB_STAT_total",
+            "Date": "2016-02-15 23:58:06",
+            "Cumulative": 1
+        }
+    ],
+    "NTPRS_TR": [
+        {
+            "group": "NTPRS_TR_total",
+            "Date": "2016-02-15 17:05:42",
+            "Cumulative": 0
+        },
+        {
+            "group": "NTPRS_TR_step",
+            "Date": "2016-02-15 17:05:42",
+            "TransIncrease": 0
+        },
+        {
+            "group": "NTPRS_TR_total",
+            "Date": "2016-02-15 17:13:23",
+            "Cumulative": 917
+        },
+        {
+            "group": "NTPRS_TR_step",
+            "Date": "2016-02-15 17:13:23",
+            "TransIncrease": 917
+        },
+        {
+            "group": "NTPRS_TR_total",
+            "Date": "2016-02-15 17:18:03",
+            "Cumulative": 919
+        },
+        {
+            "group": "NTPRS_TR_step",
+            "Date": "2016-02-15 17:18:03",
+            "TransIncrease": 2
+        },
+        {
+            "group": "NTPRS_TR_total",
+            "Date": "2016-02-15 17:23:23",
+            "Cumulative": 921
+        },
+        {
+            "group": "NTPRS_TR_step",
+            "Date": "2016-02-15 17:23:23",
+            "TransIncrease": 2
+        },
+        {
+            "group": "NTPRS_TR_total",
+            "Date": "2016-02-15 17:24:43",
+            "Cumulative": 923
+        },
+        {
+            "group": "NTPRS_TR_step",
+            "Date": "2016-02-15 17:24:43",
+            "TransIncrease": 2
+        },
+        {
+            "group": "NTPRS_TR_total",
+            "Date": "2016-02-15 17:31:44",
+            "Cumulative": 925
+        },
+        {
+            "group": "NTPRS_TR_step",
+            "Date": "2016-02-15 17:31:44",
+            "TransIncrease": 2
+        },
+        {
+            "group": "NTPRS_TR_total",
+            "Date": "2016-02-15 17:38:24",
+            "Cumulative": 932
+        },
+        {
+            "group": "NTPRS_TR_step",
+            "Date": "2016-02-15 17:38:24",
+            "TransIncrease": 7
+        },
+        {
+            "group": "NTPRS_TR_total",
+            "Date": "2016-02-15 17:42:04",
+            "Cumulative": 938
+        },
+        {
+            "group": "NTPRS_TR_step",
+            "Date": "2016-02-15 17:42:04",
+            "TransIncrease": 6
+        },
+        {
+            "group": "NTPRS_TR_total",
+            "Date": "2016-02-15 17:48:44",
+            "Cumulative": 945
+        },
+        {
+            "group": "NTPRS_TR_step",
+            "Date": "2016-02-15 17:48:44",
+            "TransIncrease": 7
+        },
+        {
+            "group": "NTPRS_TR_total",
+            "Date": "2016-02-15 17:51:45",
+            "Cumulative": 952
+        },
+        {
+            "group": "NTPRS_TR_step",
+            "Date": "2016-02-15 17:51:45",
+            "TransIncrease": 7
+        },
+        {
+            "group": "NTPRS_TR_total",
+            "Date": "2016-02-15 17:55:44",
+            "Cumulative": 956
+        },
+        {
+            "group": "NTPRS_TR_step",
+            "Date": "2016-02-15 17:55:44",
+            "TransIncrease": 4
+        },
+        {
+            "group": "NTPRS_TR_total",
+            "Date": "2016-02-15 18:03:05",
+            "Cumulative": 958
+        },
+        {
+            "group": "NTPRS_TR_step",
+            "Date": "2016-02-15 18:03:05",
+            "TransIncrease": 2
+        },
+        {
+            "group": "NTPRS_TR_total",
+            "Date": "2016-02-15 18:08:25",
+            "Cumulative": 966
+        },
+        {
+            "group": "NTPRS_TR_step",
+            "Date": "2016-02-15 18:08:25",
+            "TransIncrease": 8
+        },
+        {
+            "group": "NTPRS_TR_total",
+            "Date": "2016-02-15 18:13:25",
+            "Cumulative": 971
+        },
+        {
+            "group": "NTPRS_TR_step",
+            "Date": "2016-02-15 18:13:25",
+            "TransIncrease": 5
+        },
+        {
+            "group": "NTPRS_TR_total",
+            "Date": "2016-02-15 18:18:05",
+            "Cumulative": 975
+        },
+        {
+            "group": "NTPRS_TR_step",
+            "Date": "2016-02-15 18:18:05",
+            "TransIncrease": 4
+        },
+        {
+            "group": "NTPRS_TR_total",
+            "Date": "2016-02-15 18:23:46",
+            "Cumulative": 980
+        },
+        {
+            "group": "NTPRS_TR_step",
+            "Date": "2016-02-15 18:23:46",
+            "TransIncrease": 5
+        },
+        {
+            "group": "NTPRS_TR_total",
+            "Date": "2016-02-15 18:27:46",
+            "Cumulative": 986
+        },
+        {
+            "group": "NTPRS_TR_step",
+            "Date": "2016-02-15 18:27:46",
+            "TransIncrease": 6
+        },
+        {
+            "group": "NTPRS_TR_total",
+            "Date": "2016-02-15 18:32:26",
+            "Cumulative": 990
+        },
+        {
+            "group": "NTPRS_TR_step",
+            "Date": "2016-02-15 18:32:26",
+            "TransIncrease": 4
+        },
+        {
+            "group": "NTPRS_TR_total",
+            "Date": "2016-02-15 18:37:47",
+            "Cumulative": 994
+        },
+        {
+            "group": "NTPRS_TR_step",
+            "Date": "2016-02-15 18:37:47",
+            "TransIncrease": 4
+        },
+        {
+            "group": "NTPRS_TR_total",
+            "Date": "2016-02-15 18:43:26",
+            "Cumulative": 1003
+        },
+        {
+            "group": "NTPRS_TR_step",
+            "Date": "2016-02-15 18:43:26",
+            "TransIncrease": 9
+        },
+        {
+            "group": "NTPRS_TR_total",
+            "Date": "2016-02-15 18:48:07",
+            "Cumulative": 1007
+        },
+        {
+            "group": "NTPRS_TR_step",
+            "Date": "2016-02-15 18:48:07",
+            "TransIncrease": 4
+        },
+        {
+            "group": "NTPRS_TR_total",
+            "Date": "2016-02-15 18:52:47",
+            "Cumulative": 1010
+        },
+        {
+            "group": "NTPRS_TR_step",
+            "Date": "2016-02-15 18:52:47",
+            "TransIncrease": 3
+        },
+        {
+            "group": "NTPRS_TR_total",
+            "Date": "2016-02-15 18:58:47",
+            "Cumulative": 1018
+        },
+        {
+            "group": "NTPRS_TR_step",
+            "Date": "2016-02-15 18:58:47",
+            "TransIncrease": 8
+        },
+        {
+            "group": "NTPRS_TR_total",
+            "Date": "2016-02-15 19:03:08",
+            "Cumulative": 1025
+        },
+        {
+            "group": "NTPRS_TR_step",
+            "Date": "2016-02-15 19:03:08",
+            "TransIncrease": 7
+        },
+        {
+            "group": "NTPRS_TR_total",
+            "Date": "2016-02-15 19:06:47",
+            "Cumulative": 1031
+        },
+        {
+            "group": "NTPRS_TR_step",
+            "Date": "2016-02-15 19:06:47",
+            "TransIncrease": 6
+        },
+        {
+            "group": "NTPRS_TR_total",
+            "Date": "2016-02-15 19:13:48",
+            "Cumulative": 1038
+        },
+        {
+            "group": "NTPRS_TR_step",
+            "Date": "2016-02-15 19:13:48",
+            "TransIncrease": 7
+        },
+        {
+            "group": "NTPRS_TR_total",
+            "Date": "2016-02-15 19:18:09",
+            "Cumulative": 1044
+        },
+        {
+            "group": "NTPRS_TR_step",
+            "Date": "2016-02-15 19:18:09",
+            "TransIncrease": 6
+        },
+        {
+            "group": "NTPRS_TR_total",
+            "Date": "2016-02-15 19:23:28",
+            "Cumulative": 1048
+        },
+        {
+            "group": "NTPRS_TR_step",
+            "Date": "2016-02-15 19:23:28",
+            "TransIncrease": 4
+        },
+        {
+            "group": "NTPRS_TR_total",
+            "Date": "2016-02-15 19:28:48",
+            "Cumulative": 1053
+        },
+        {
+            "group": "NTPRS_TR_step",
+            "Date": "2016-02-15 19:28:48",
+            "TransIncrease": 5
+        },
+        {
+            "group": "NTPRS_TR_total",
+            "Date": "2016-02-15 19:32:48",
+            "Cumulative": 1060
+        },
+        {
+            "group": "NTPRS_TR_step",
+            "Date": "2016-02-15 19:32:48",
+            "TransIncrease": 7
+        },
+        {
+            "group": "NTPRS_TR_total",
+            "Date": "2016-02-15 19:38:09",
+            "Cumulative": 1062
+        },
+        {
+            "group": "NTPRS_TR_step",
+            "Date": "2016-02-15 19:38:09",
+            "TransIncrease": 2
+        },
+        {
+            "group": "NTPRS_TR_total",
+            "Date": "2016-02-15 19:43:09",
+            "Cumulative": 1071
+        },
+        {
+            "group": "NTPRS_TR_step",
+            "Date": "2016-02-15 19:43:09",
+            "TransIncrease": 9
+        },
+        {
+            "group": "NTPRS_TR_total",
+            "Date": "2016-02-15 19:47:49",
+            "Cumulative": 1074
+        },
+        {
+            "group": "NTPRS_TR_step",
+            "Date": "2016-02-15 19:47:49",
+            "TransIncrease": 3
+        },
+        {
+            "group": "NTPRS_TR_total",
+            "Date": "2016-02-15 19:52:09",
+            "Cumulative": 1079
+        },
+        {
+            "group": "NTPRS_TR_step",
+            "Date": "2016-02-15 19:52:09",
+            "TransIncrease": 5
+        },
+        {
+            "group": "NTPRS_TR_total",
+            "Date": "2016-02-15 19:58:30",
+            "Cumulative": 1085
+        },
+        {
+            "group": "NTPRS_TR_step",
+            "Date": "2016-02-15 19:58:30",
+            "TransIncrease": 6
+        },
+        {
+            "group": "NTPRS_TR_total",
+            "Date": "2016-02-15 20:02:50",
+            "Cumulative": 1089
+        },
+        {
+            "group": "NTPRS_TR_step",
+            "Date": "2016-02-15 20:02:50",
+            "TransIncrease": 4
+        },
+        {
+            "group": "NTPRS_TR_total",
+            "Date": "2016-02-15 20:08:30",
+            "Cumulative": 1092
+        },
+        {
+            "group": "NTPRS_TR_step",
+            "Date": "2016-02-15 20:08:30",
+            "TransIncrease": 3
+        },
+        {
+            "group": "NTPRS_TR_total",
+            "Date": "2016-02-15 20:11:10",
+            "Cumulative": 1095
+        },
+        {
+            "group": "NTPRS_TR_step",
+            "Date": "2016-02-15 20:11:10",
+            "TransIncrease": 3
+        },
+        {
+            "group": "NTPRS_TR_total",
+            "Date": "2016-02-15 20:17:50",
+            "Cumulative": 1098
+        },
+        {
+            "group": "NTPRS_TR_step",
+            "Date": "2016-02-15 20:17:50",
+            "TransIncrease": 3
+        },
+        {
+            "group": "NTPRS_TR_total",
+            "Date": "2016-02-15 20:23:50",
+            "Cumulative": 1104
+        },
+        {
+            "group": "NTPRS_TR_step",
+            "Date": "2016-02-15 20:23:50",
+            "TransIncrease": 6
+        },
+        {
+            "group": "NTPRS_TR_total",
+            "Date": "2016-02-15 20:27:11",
+            "Cumulative": 1107
+        },
+        {
+            "group": "NTPRS_TR_step",
+            "Date": "2016-02-15 20:27:11",
+            "TransIncrease": 3
+        },
+        {
+            "group": "NTPRS_TR_total",
+            "Date": "2016-02-15 20:33:11",
+            "Cumulative": 1111
+        },
+        {
+            "group": "NTPRS_TR_step",
+            "Date": "2016-02-15 20:33:11",
+            "TransIncrease": 4
+        },
+        {
+            "group": "NTPRS_TR_total",
+            "Date": "2016-02-15 20:36:11",
+            "Cumulative": 1114
+        },
+        {
+            "group": "NTPRS_TR_step",
+            "Date": "2016-02-15 20:36:11",
+            "TransIncrease": 3
+        },
+        {
+            "group": "NTPRS_TR_total",
+            "Date": "2016-02-15 20:43:51",
+            "Cumulative": 1118
+        },
+        {
+            "group": "NTPRS_TR_step",
+            "Date": "2016-02-15 20:43:51",
+            "TransIncrease": 4
+        },
+        {
+            "group": "NTPRS_TR_total",
+            "Date": "2016-02-15 20:48:31",
+            "Cumulative": 1121
+        },
+        {
+            "group": "NTPRS_TR_step",
+            "Date": "2016-02-15 20:48:31",
+            "TransIncrease": 3
+        },
+        {
+            "group": "NTPRS_TR_total",
+            "Date": "2016-02-15 20:53:52",
+            "Cumulative": 1127
+        },
+        {
+            "group": "NTPRS_TR_step",
+            "Date": "2016-02-15 20:53:52",
+            "TransIncrease": 6
+        },
+        {
+            "group": "NTPRS_TR_total",
+            "Date": "2016-02-15 20:58:12",
+            "Cumulative": 1131
+        },
+        {
+            "group": "NTPRS_TR_step",
+            "Date": "2016-02-15 20:58:12",
+            "TransIncrease": 4
+        },
+        {
+            "group": "NTPRS_TR_total",
+            "Date": "2016-02-15 21:02:32",
+            "Cumulative": 1133
+        },
+        {
+            "group": "NTPRS_TR_step",
+            "Date": "2016-02-15 21:02:32",
+            "TransIncrease": 2
+        },
+        {
+            "group": "NTPRS_TR_total",
+            "Date": "2016-02-15 21:06:33",
+            "Cumulative": 1135
+        },
+        {
+            "group": "NTPRS_TR_step",
+            "Date": "2016-02-15 21:06:33",
+            "TransIncrease": 2
+        },
+        {
+            "group": "NTPRS_TR_total",
+            "Date": "2016-02-15 21:13:13",
+            "Cumulative": 1141
+        },
+        {
+            "group": "NTPRS_TR_step",
+            "Date": "2016-02-15 21:13:13",
+            "TransIncrease": 6
+        },
+        {
+            "group": "NTPRS_TR_total",
+            "Date": "2016-02-15 21:18:13",
+            "Cumulative": 1147
+        },
+        {
+            "group": "NTPRS_TR_step",
+            "Date": "2016-02-15 21:18:13",
+            "TransIncrease": 6
+        },
+        {
+            "group": "NTPRS_TR_total",
+            "Date": "2016-02-15 21:23:53",
+            "Cumulative": 1153
+        },
+        {
+            "group": "NTPRS_TR_step",
+            "Date": "2016-02-15 21:23:53",
+            "TransIncrease": 6
+        },
+        {
+            "group": "NTPRS_TR_total",
+            "Date": "2016-02-15 21:27:13",
+            "Cumulative": 1157
+        },
+        {
+            "group": "NTPRS_TR_step",
+            "Date": "2016-02-15 21:27:13",
+            "TransIncrease": 4
+        },
+        {
+            "group": "NTPRS_TR_total",
+            "Date": "2016-02-15 21:32:54",
+            "Cumulative": 1159
+        },
+        {
+            "group": "NTPRS_TR_step",
+            "Date": "2016-02-15 21:32:54",
+            "TransIncrease": 2
+        },
+        {
+            "group": "NTPRS_TR_total",
+            "Date": "2016-02-15 21:38:34",
+            "Cumulative": 1165
+        },
+        {
+            "group": "NTPRS_TR_step",
+            "Date": "2016-02-15 21:38:34",
+            "TransIncrease": 6
+        },
+        {
+            "group": "NTPRS_TR_total",
+            "Date": "2016-02-15 21:43:54",
+            "Cumulative": 1168
+        },
+        {
+            "group": "NTPRS_TR_step",
+            "Date": "2016-02-15 21:43:54",
+            "TransIncrease": 3
+        },
+        {
+            "group": "NTPRS_TR_total",
+            "Date": "2016-02-15 21:48:34",
+            "Cumulative": 1174
+        },
+        {
+            "group": "NTPRS_TR_step",
+            "Date": "2016-02-15 21:48:34",
+            "TransIncrease": 6
+        },
+        {
+            "group": "NTPRS_TR_total",
+            "Date": "2016-02-15 21:51:54",
+            "Cumulative": 1178
+        },
+        {
+            "group": "NTPRS_TR_step",
+            "Date": "2016-02-15 21:51:54",
+            "TransIncrease": 4
+        },
+        {
+            "group": "NTPRS_TR_total",
+            "Date": "2016-02-15 21:58:34",
+            "Cumulative": 1184
+        },
+        {
+            "group": "NTPRS_TR_step",
+            "Date": "2016-02-15 21:58:34",
+            "TransIncrease": 6
+        },
+        {
+            "group": "NTPRS_TR_total",
+            "Date": "2016-02-15 22:01:35",
+            "Cumulative": 1188
+        },
+        {
+            "group": "NTPRS_TR_step",
+            "Date": "2016-02-15 22:01:35",
+            "TransIncrease": 4
+        },
+        {
+            "group": "NTPRS_TR_total",
+            "Date": "2016-02-15 22:05:35",
+            "Cumulative": 1191
+        },
+        {
+            "group": "NTPRS_TR_step",
+            "Date": "2016-02-15 22:05:35",
+            "TransIncrease": 3
+        },
+        {
+            "group": "NTPRS_TR_total",
+            "Date": "2016-02-15 22:10:55",
+            "Cumulative": 1192
+        },
+        {
+            "group": "NTPRS_TR_step",
+            "Date": "2016-02-15 22:10:55",
+            "TransIncrease": 1
+        },
+        {
+            "group": "NTPRS_TR_total",
+            "Date": "2016-02-15 22:17:55",
+            "Cumulative": 1198
+        },
+        {
+            "group": "NTPRS_TR_step",
+            "Date": "2016-02-15 22:17:55",
+            "TransIncrease": 6
+        },
+        {
+            "group": "NTPRS_TR_total",
+            "Date": "2016-02-15 22:23:55",
+            "Cumulative": 1205
+        },
+        {
+            "group": "NTPRS_TR_step",
+            "Date": "2016-02-15 22:23:55",
+            "TransIncrease": 7
+        },
+        {
+            "group": "NTPRS_TR_total",
+            "Date": "2016-02-15 22:28:56",
+            "Cumulative": 1213
+        },
+        {
+            "group": "NTPRS_TR_step",
+            "Date": "2016-02-15 22:28:56",
+            "TransIncrease": 8
+        },
+        {
+            "group": "NTPRS_TR_total",
+            "Date": "2016-02-15 22:33:56",
+            "Cumulative": 1218
+        },
+        {
+            "group": "NTPRS_TR_step",
+            "Date": "2016-02-15 22:33:56",
+            "TransIncrease": 5
+        },
+        {
+            "group": "NTPRS_TR_total",
+            "Date": "2016-02-15 22:38:16",
+            "Cumulative": 1223
+        },
+        {
+            "group": "NTPRS_TR_step",
+            "Date": "2016-02-15 22:38:16",
+            "TransIncrease": 5
+        },
+        {
+            "group": "NTPRS_TR_total",
+            "Date": "2016-02-15 22:40:36",
+            "Cumulative": 1224
+        },
+        {
+            "group": "NTPRS_TR_step",
+            "Date": "2016-02-15 22:40:36",
+            "TransIncrease": 1
+        },
+        {
+            "group": "NTPRS_TR_total",
+            "Date": "2016-02-15 22:46:17",
+            "Cumulative": 1228
+        },
+        {
+            "group": "NTPRS_TR_step",
+            "Date": "2016-02-15 22:46:17",
+            "TransIncrease": 4
+        },
+        {
+            "group": "NTPRS_TR_total",
+            "Date": "2016-02-15 22:53:57",
+            "Cumulative": 1235
+        },
+        {
+            "group": "NTPRS_TR_step",
+            "Date": "2016-02-15 22:53:57",
+            "TransIncrease": 7
+        },
+        {
+            "group": "NTPRS_TR_total",
+            "Date": "2016-02-15 22:57:17",
+            "Cumulative": 1237
+        },
+        {
+            "group": "NTPRS_TR_step",
+            "Date": "2016-02-15 22:57:17",
+            "TransIncrease": 2
+        },
+        {
+            "group": "NTPRS_TR_total",
+            "Date": "2016-02-15 23:02:58",
+            "Cumulative": 1241
+        },
+        {
+            "group": "NTPRS_TR_step",
+            "Date": "2016-02-15 23:02:58",
+            "TransIncrease": 4
+        },
+        {
+            "group": "NTPRS_TR_total",
+            "Date": "2016-02-15 23:08:57",
+            "Cumulative": 1244
+        },
+        {
+            "group": "NTPRS_TR_step",
+            "Date": "2016-02-15 23:08:57",
+            "TransIncrease": 3
+        },
+        {
+            "group": "NTPRS_TR_total",
+            "Date": "2016-02-15 23:13:37",
+            "Cumulative": 1245
+        },
+        {
+            "group": "NTPRS_TR_step",
+            "Date": "2016-02-15 23:13:37",
+            "TransIncrease": 1
+        },
+        {
+            "group": "NTPRS_TR_total",
+            "Date": "2016-02-15 23:18:18",
+            "Cumulative": 1247
+        },
+        {
+            "group": "NTPRS_TR_step",
+            "Date": "2016-02-15 23:18:18",
+            "TransIncrease": 2
+        },
+        {
+            "group": "NTPRS_TR_total",
+            "Date": "2016-02-15 23:23:58",
+            "Cumulative": 1250
+        },
+        {
+            "group": "NTPRS_TR_step",
+            "Date": "2016-02-15 23:23:58",
+            "TransIncrease": 3
+        },
+        {
+            "group": "NTPRS_TR_total",
+            "Date": "2016-02-15 23:28:38",
+            "Cumulative": 1251
+        },
+        {
+            "group": "NTPRS_TR_step",
+            "Date": "2016-02-15 23:28:38",
+            "TransIncrease": 1
+        },
+        {
+            "group": "NTPRS_TR_total",
+            "Date": "2016-02-15 23:33:58",
+            "Cumulative": 1253
+        },
+        {
+            "group": "NTPRS_TR_step",
+            "Date": "2016-02-15 23:33:58",
+            "TransIncrease": 2
+        },
+        {
+            "group": "NTPRS_TR_total",
+            "Date": "2016-02-15 23:38:19",
+            "Cumulative": 1259
+        },
+        {
+            "group": "NTPRS_TR_step",
+            "Date": "2016-02-15 23:38:19",
+            "TransIncrease": 6
+        },
+        {
+            "group": "NTPRS_TR_total",
+            "Date": "2016-02-15 23:43:59",
+            "Cumulative": 1265
+        },
+        {
+            "group": "NTPRS_TR_step",
+            "Date": "2016-02-15 23:43:59",
+            "TransIncrease": 6
+        },
+        {
+            "group": "NTPRS_TR_total",
+            "Date": "2016-02-15 23:47:59",
+            "Cumulative": 1268
+        },
+        {
+            "group": "NTPRS_TR_step",
+            "Date": "2016-02-15 23:47:59",
+            "TransIncrease": 3
+        },
+        {
+            "group": "NTPRS_TR_total",
+            "Date": "2016-02-15 23:53:19",
+            "Cumulative": 1272
+        },
+        {
+            "group": "NTPRS_TR_step",
+            "Date": "2016-02-15 23:53:19",
+            "TransIncrease": 4
+        },
+        {
+            "group": "NTPRS_TR_total",
+            "Date": "2016-02-15 23:58:19",
+            "Cumulative": 1279
+        },
+        {
+            "group": "NTPRS_TR_step",
+            "Date": "2016-02-15 23:58:19",
+            "TransIncrease": 7
+        }
+    ],
+    "TPRS_TR": [
+        {
+            "group": "TPRS_TR_total",
+            "Date": "2016-02-15 17:08:47",
+            "Cumulative": 0
+        },
+        {
+            "group": "TPRS_TR_step",
+            "Date": "2016-02-15 17:08:47",
+            "TransIncrease": 0
+        },
+        {
+            "group": "TPRS_TR_total",
+            "Date": "2016-02-15 17:13:27",
+            "Cumulative": 1375
+        },
+        {
+            "group": "TPRS_TR_step",
+            "Date": "2016-02-15 17:13:27",
+            "TransIncrease": 1375
+        },
+        {
+            "group": "TPRS_TR_total",
+            "Date": "2016-02-15 17:18:47",
+            "Cumulative": 1385
+        },
+        {
+            "group": "TPRS_TR_step",
+            "Date": "2016-02-15 17:18:47",
+            "TransIncrease": 10
+        },
+        {
+            "group": "TPRS_TR_total",
+            "Date": "2016-02-15 17:22:47",
+            "Cumulative": 1393
+        },
+        {
+            "group": "TPRS_TR_step",
+            "Date": "2016-02-15 17:22:47",
+            "TransIncrease": 8
+        },
+        {
+            "group": "TPRS_TR_total",
+            "Date": "2016-02-15 17:27:48",
+            "Cumulative": 1399
+        },
+        {
+            "group": "TPRS_TR_step",
+            "Date": "2016-02-15 17:27:48",
+            "TransIncrease": 6
+        },
+        {
+            "group": "TPRS_TR_total",
+            "Date": "2016-02-15 17:31:48",
+            "Cumulative": 1404
+        },
+        {
+            "group": "TPRS_TR_step",
+            "Date": "2016-02-15 17:31:48",
+            "TransIncrease": 5
+        },
+        {
+            "group": "TPRS_TR_total",
+            "Date": "2016-02-15 17:37:48",
+            "Cumulative": 1411
+        },
+        {
+            "group": "TPRS_TR_step",
+            "Date": "2016-02-15 17:37:48",
+            "TransIncrease": 7
+        },
+        {
+            "group": "TPRS_TR_total",
+            "Date": "2016-02-15 17:43:49",
+            "Cumulative": 1418
+        },
+        {
+            "group": "TPRS_TR_step",
+            "Date": "2016-02-15 17:43:49",
+            "TransIncrease": 7
+        },
+        {
+            "group": "TPRS_TR_total",
+            "Date": "2016-02-15 17:48:49",
+            "Cumulative": 1427
+        },
+        {
+            "group": "TPRS_TR_step",
+            "Date": "2016-02-15 17:48:49",
+            "TransIncrease": 9
+        },
+        {
+            "group": "TPRS_TR_total",
+            "Date": "2016-02-15 17:53:30",
+            "Cumulative": 1438
+        },
+        {
+            "group": "TPRS_TR_step",
+            "Date": "2016-02-15 17:53:30",
+            "TransIncrease": 11
+        },
+        {
+            "group": "TPRS_TR_total",
+            "Date": "2016-02-15 17:58:49",
+            "Cumulative": 1446
+        },
+        {
+            "group": "TPRS_TR_step",
+            "Date": "2016-02-15 17:58:49",
+            "TransIncrease": 8
+        },
+        {
+            "group": "TPRS_TR_total",
+            "Date": "2016-02-15 18:03:49",
+            "Cumulative": 1451
+        },
+        {
+            "group": "TPRS_TR_step",
+            "Date": "2016-02-15 18:03:49",
+            "TransIncrease": 5
+        },
+        {
+            "group": "TPRS_TR_total",
+            "Date": "2016-02-15 18:08:50",
+            "Cumulative": 1457
+        },
+        {
+            "group": "TPRS_TR_step",
+            "Date": "2016-02-15 18:08:50",
+            "TransIncrease": 6
+        },
+        {
+            "group": "TPRS_TR_total",
+            "Date": "2016-02-15 18:13:50",
+            "Cumulative": 1465
+        },
+        {
+            "group": "TPRS_TR_step",
+            "Date": "2016-02-15 18:13:50",
+            "TransIncrease": 8
+        },
+        {
+            "group": "TPRS_TR_total",
+            "Date": "2016-02-15 18:17:30",
+            "Cumulative": 1468
+        },
+        {
+            "group": "TPRS_TR_step",
+            "Date": "2016-02-15 18:17:30",
+            "TransIncrease": 3
+        },
+        {
+            "group": "TPRS_TR_total",
+            "Date": "2016-02-15 18:23:11",
+            "Cumulative": 1477
+        },
+        {
+            "group": "TPRS_TR_step",
+            "Date": "2016-02-15 18:23:11",
+            "TransIncrease": 9
+        },
+        {
+            "group": "TPRS_TR_total",
+            "Date": "2016-02-15 18:27:30",
+            "Cumulative": 1482
+        },
+        {
+            "group": "TPRS_TR_step",
+            "Date": "2016-02-15 18:27:30",
+            "TransIncrease": 5
+        },
+        {
+            "group": "TPRS_TR_total",
+            "Date": "2016-02-15 18:33:51",
+            "Cumulative": 1490
+        },
+        {
+            "group": "TPRS_TR_step",
+            "Date": "2016-02-15 18:33:51",
+            "TransIncrease": 8
+        },
+        {
+            "group": "TPRS_TR_total",
+            "Date": "2016-02-15 18:38:31",
+            "Cumulative": 1493
+        },
+        {
+            "group": "TPRS_TR_step",
+            "Date": "2016-02-15 18:38:31",
+            "TransIncrease": 3
+        },
+        {
+            "group": "TPRS_TR_total",
+            "Date": "2016-02-15 18:42:11",
+            "Cumulative": 1501
+        },
+        {
+            "group": "TPRS_TR_step",
+            "Date": "2016-02-15 18:42:11",
+            "TransIncrease": 8
+        },
+        {
+            "group": "TPRS_TR_total",
+            "Date": "2016-02-15 18:48:53",
+            "Cumulative": 1509
+        },
+        {
+            "group": "TPRS_TR_step",
+            "Date": "2016-02-15 18:48:53",
+            "TransIncrease": 8
+        },
+        {
+            "group": "TPRS_TR_total",
+            "Date": "2016-02-15 18:53:52",
+            "Cumulative": 1515
+        },
+        {
+            "group": "TPRS_TR_step",
+            "Date": "2016-02-15 18:53:52",
+            "TransIncrease": 6
+        },
+        {
+            "group": "TPRS_TR_total",
+            "Date": "2016-02-15 18:58:52",
+            "Cumulative": 1524
+        },
+        {
+            "group": "TPRS_TR_step",
+            "Date": "2016-02-15 18:58:52",
+            "TransIncrease": 9
+        },
+        {
+            "group": "TPRS_TR_total",
+            "Date": "2016-02-15 19:03:32",
+            "Cumulative": 1527
+        },
+        {
+            "group": "TPRS_TR_step",
+            "Date": "2016-02-15 19:03:32",
+            "TransIncrease": 3
+        },
+        {
+            "group": "TPRS_TR_total",
+            "Date": "2016-02-15 19:07:12",
+            "Cumulative": 1532
+        },
+        {
+            "group": "TPRS_TR_step",
+            "Date": "2016-02-15 19:07:12",
+            "TransIncrease": 5
+        },
+        {
+            "group": "TPRS_TR_total",
+            "Date": "2016-02-15 19:13:32",
+            "Cumulative": 1539
+        },
+        {
+            "group": "TPRS_TR_step",
+            "Date": "2016-02-15 19:13:32",
+            "TransIncrease": 7
+        },
+        {
+            "group": "TPRS_TR_total",
+            "Date": "2016-02-15 19:17:13",
+            "Cumulative": 1544
+        },
+        {
+            "group": "TPRS_TR_step",
+            "Date": "2016-02-15 19:17:13",
+            "TransIncrease": 5
+        },
+        {
+            "group": "TPRS_TR_total",
+            "Date": "2016-02-15 19:21:13",
+            "Cumulative": 1545
+        },
+        {
+            "group": "TPRS_TR_step",
+            "Date": "2016-02-15 19:21:13",
+            "TransIncrease": 1
+        },
+        {
+            "group": "TPRS_TR_total",
+            "Date": "2016-02-15 19:28:33",
+            "Cumulative": 1557
+        },
+        {
+            "group": "TPRS_TR_step",
+            "Date": "2016-02-15 19:28:33",
+            "TransIncrease": 12
+        },
+        {
+            "group": "TPRS_TR_total",
+            "Date": "2016-02-15 19:31:53",
+            "Cumulative": 1561
+        },
+        {
+            "group": "TPRS_TR_step",
+            "Date": "2016-02-15 19:31:53",
+            "TransIncrease": 4
+        },
+        {
+            "group": "TPRS_TR_total",
+            "Date": "2016-02-15 19:38:53",
+            "Cumulative": 1568
+        },
+        {
+            "group": "TPRS_TR_step",
+            "Date": "2016-02-15 19:38:53",
+            "TransIncrease": 7
+        },
+        {
+            "group": "TPRS_TR_total",
+            "Date": "2016-02-15 19:43:14",
+            "Cumulative": 1570
+        },
+        {
+            "group": "TPRS_TR_step",
+            "Date": "2016-02-15 19:43:14",
+            "TransIncrease": 2
+        },
+        {
+            "group": "TPRS_TR_total",
+            "Date": "2016-02-15 19:48:54",
+            "Cumulative": 1578
+        },
+        {
+            "group": "TPRS_TR_step",
+            "Date": "2016-02-15 19:48:54",
+            "TransIncrease": 8
+        },
+        {
+            "group": "TPRS_TR_total",
+            "Date": "2016-02-15 19:53:34",
+            "Cumulative": 1587
+        },
+        {
+            "group": "TPRS_TR_step",
+            "Date": "2016-02-15 19:53:34",
+            "TransIncrease": 9
+        },
+        {
+            "group": "TPRS_TR_total",
+            "Date": "2016-02-15 19:56:54",
+            "Cumulative": 1593
+        },
+        {
+            "group": "TPRS_TR_step",
+            "Date": "2016-02-15 19:56:54",
+            "TransIncrease": 6
+        },
+        {
+            "group": "TPRS_TR_total",
+            "Date": "2016-02-15 19:59:54",
+            "Cumulative": 1595
+        },
+        {
+            "group": "TPRS_TR_step",
+            "Date": "2016-02-15 19:59:54",
+            "TransIncrease": 2
+        },
+        {
+            "group": "TPRS_TR_total",
+            "Date": "2016-02-15 20:06:36",
+            "Cumulative": 1600
+        },
+        {
+            "group": "TPRS_TR_step",
+            "Date": "2016-02-15 20:06:36",
+            "TransIncrease": 5
+        },
+        {
+            "group": "TPRS_TR_total",
+            "Date": "2016-02-15 20:13:15",
+            "Cumulative": 1605
+        },
+        {
+            "group": "TPRS_TR_step",
+            "Date": "2016-02-15 20:13:15",
+            "TransIncrease": 5
+        },
+        {
+            "group": "TPRS_TR_total",
+            "Date": "2016-02-15 20:18:55",
+            "Cumulative": 1617
+        },
+        {
+            "group": "TPRS_TR_step",
+            "Date": "2016-02-15 20:18:55",
+            "TransIncrease": 12
+        },
+        {
+            "group": "TPRS_TR_total",
+            "Date": "2016-02-15 20:23:55",
+            "Cumulative": 1624
+        },
+        {
+            "group": "TPRS_TR_step",
+            "Date": "2016-02-15 20:23:55",
+            "TransIncrease": 7
+        },
+        {
+            "group": "TPRS_TR_total",
+            "Date": "2016-02-15 20:27:55",
+            "Cumulative": 1631
+        },
+        {
+            "group": "TPRS_TR_step",
+            "Date": "2016-02-15 20:27:55",
+            "TransIncrease": 7
+        },
+        {
+            "group": "TPRS_TR_total",
+            "Date": "2016-02-15 20:33:36",
+            "Cumulative": 1639
+        },
+        {
+            "group": "TPRS_TR_step",
+            "Date": "2016-02-15 20:33:36",
+            "TransIncrease": 8
+        },
+        {
+            "group": "TPRS_TR_total",
+            "Date": "2016-02-15 20:38:36",
+            "Cumulative": 1645
+        },
+        {
+            "group": "TPRS_TR_step",
+            "Date": "2016-02-15 20:38:36",
+            "TransIncrease": 6
+        },
+        {
+            "group": "TPRS_TR_total",
+            "Date": "2016-02-15 20:43:56",
+            "Cumulative": 1653
+        },
+        {
+            "group": "TPRS_TR_step",
+            "Date": "2016-02-15 20:43:56",
+            "TransIncrease": 8
+        },
+        {
+            "group": "TPRS_TR_total",
+            "Date": "2016-02-15 20:46:36",
+            "Cumulative": 1655
+        },
+        {
+            "group": "TPRS_TR_step",
+            "Date": "2016-02-15 20:46:36",
+            "TransIncrease": 2
+        },
+        {
+            "group": "TPRS_TR_total",
+            "Date": "2016-02-15 20:51:17",
+            "Cumulative": 1662
+        },
+        {
+            "group": "TPRS_TR_step",
+            "Date": "2016-02-15 20:51:17",
+            "TransIncrease": 7
+        },
+        {
+            "group": "TPRS_TR_total",
+            "Date": "2016-02-15 20:57:56",
+            "Cumulative": 1671
+        },
+        {
+            "group": "TPRS_TR_step",
+            "Date": "2016-02-15 20:57:56",
+            "TransIncrease": 9
+        },
+        {
+            "group": "TPRS_TR_total",
+            "Date": "2016-02-15 21:03:57",
+            "Cumulative": 1674
+        },
+        {
+            "group": "TPRS_TR_step",
+            "Date": "2016-02-15 21:03:57",
+            "TransIncrease": 3
+        },
+        {
+            "group": "TPRS_TR_total",
+            "Date": "2016-02-15 21:08:57",
+            "Cumulative": 1683
+        },
+        {
+            "group": "TPRS_TR_step",
+            "Date": "2016-02-15 21:08:57",
+            "TransIncrease": 9
+        },
+        {
+            "group": "TPRS_TR_total",
+            "Date": "2016-02-15 21:12:17",
+            "Cumulative": 1686
+        },
+        {
+            "group": "TPRS_TR_step",
+            "Date": "2016-02-15 21:12:17",
+            "TransIncrease": 3
+        },
+        {
+            "group": "TPRS_TR_total",
+            "Date": "2016-02-15 21:18:37",
+            "Cumulative": 1691
+        },
+        {
+            "group": "TPRS_TR_step",
+            "Date": "2016-02-15 21:18:37",
+            "TransIncrease": 5
+        },
+        {
+            "group": "TPRS_TR_total",
+            "Date": "2016-02-15 21:23:37",
+            "Cumulative": 1698
+        },
+        {
+            "group": "TPRS_TR_step",
+            "Date": "2016-02-15 21:23:37",
+            "TransIncrease": 7
+        },
+        {
+            "group": "TPRS_TR_total",
+            "Date": "2016-02-15 21:28:38",
+            "Cumulative": 1703
+        },
+        {
+            "group": "TPRS_TR_step",
+            "Date": "2016-02-15 21:28:38",
+            "TransIncrease": 5
+        },
+        {
+            "group": "TPRS_TR_total",
+            "Date": "2016-02-15 21:33:18",
+            "Cumulative": 1711
+        },
+        {
+            "group": "TPRS_TR_step",
+            "Date": "2016-02-15 21:33:18",
+            "TransIncrease": 8
+        },
+        {
+            "group": "TPRS_TR_total",
+            "Date": "2016-02-15 21:37:58",
+            "Cumulative": 1716
+        },
+        {
+            "group": "TPRS_TR_step",
+            "Date": "2016-02-15 21:37:58",
+            "TransIncrease": 5
+        },
+        {
+            "group": "TPRS_TR_total",
+            "Date": "2016-02-15 21:43:58",
+            "Cumulative": 1722
+        },
+        {
+            "group": "TPRS_TR_step",
+            "Date": "2016-02-15 21:43:58",
+            "TransIncrease": 6
+        },
+        {
+            "group": "TPRS_TR_total",
+            "Date": "2016-02-15 21:48:18",
+            "Cumulative": 1733
+        },
+        {
+            "group": "TPRS_TR_step",
+            "Date": "2016-02-15 21:48:18",
+            "TransIncrease": 11
+        },
+        {
+            "group": "TPRS_TR_total",
+            "Date": "2016-02-15 21:53:19",
+            "Cumulative": 1743
+        },
+        {
+            "group": "TPRS_TR_step",
+            "Date": "2016-02-15 21:53:19",
+            "TransIncrease": 10
+        },
+        {
+            "group": "TPRS_TR_total",
+            "Date": "2016-02-15 21:58:59",
+            "Cumulative": 1751
+        },
+        {
+            "group": "TPRS_TR_step",
+            "Date": "2016-02-15 21:58:59",
+            "TransIncrease": 8
+        },
+        {
+            "group": "TPRS_TR_total",
+            "Date": "2016-02-15 22:03:59",
+            "Cumulative": 1759
+        },
+        {
+            "group": "TPRS_TR_step",
+            "Date": "2016-02-15 22:03:59",
+            "TransIncrease": 8
+        },
+        {
+            "group": "TPRS_TR_total",
+            "Date": "2016-02-15 22:08:39",
+            "Cumulative": 1767
+        },
+        {
+            "group": "TPRS_TR_step",
+            "Date": "2016-02-15 22:08:39",
+            "TransIncrease": 8
+        },
+        {
+            "group": "TPRS_TR_total",
+            "Date": "2016-02-15 22:14:00",
+            "Cumulative": 1775
+        },
+        {
+            "group": "TPRS_TR_step",
+            "Date": "2016-02-15 22:14:00",
+            "TransIncrease": 8
+        },
+        {
+            "group": "TPRS_TR_total",
+            "Date": "2016-02-15 22:18:20",
+            "Cumulative": 1780
+        },
+        {
+            "group": "TPRS_TR_step",
+            "Date": "2016-02-15 22:18:20",
+            "TransIncrease": 5
+        },
+        {
+            "group": "TPRS_TR_total",
+            "Date": "2016-02-15 22:23:40",
+            "Cumulative": 1786
+        },
+        {
+            "group": "TPRS_TR_step",
+            "Date": "2016-02-15 22:23:40",
+            "TransIncrease": 6
+        },
+        {
+            "group": "TPRS_TR_total",
+            "Date": "2016-02-15 22:25:40",
+            "Cumulative": 1788
+        },
+        {
+            "group": "TPRS_TR_step",
+            "Date": "2016-02-15 22:25:40",
+            "TransIncrease": 2
+        },
+        {
+            "group": "TPRS_TR_total",
+            "Date": "2016-02-15 22:33:00",
+            "Cumulative": 1794
+        },
+        {
+            "group": "TPRS_TR_step",
+            "Date": "2016-02-15 22:33:00",
+            "TransIncrease": 6
+        },
+        {
+            "group": "TPRS_TR_total",
+            "Date": "2016-02-15 22:38:20",
+            "Cumulative": 1799
+        },
+        {
+            "group": "TPRS_TR_step",
+            "Date": "2016-02-15 22:38:20",
+            "TransIncrease": 5
+        },
+        {
+            "group": "TPRS_TR_total",
+            "Date": "2016-02-15 22:44:01",
+            "Cumulative": 1808
+        },
+        {
+            "group": "TPRS_TR_step",
+            "Date": "2016-02-15 22:44:01",
+            "TransIncrease": 9
+        },
+        {
+            "group": "TPRS_TR_total",
+            "Date": "2016-02-15 22:46:41",
+            "Cumulative": 1811
+        },
+        {
+            "group": "TPRS_TR_step",
+            "Date": "2016-02-15 22:46:41",
+            "TransIncrease": 3
+        },
+        {
+            "group": "TPRS_TR_total",
+            "Date": "2016-02-15 22:54:01",
+            "Cumulative": 1819
+        },
+        {
+            "group": "TPRS_TR_step",
+            "Date": "2016-02-15 22:54:01",
+            "TransIncrease": 8
+        },
+        {
+            "group": "TPRS_TR_total",
+            "Date": "2016-02-15 22:59:01",
+            "Cumulative": 1828
+        },
+        {
+            "group": "TPRS_TR_step",
+            "Date": "2016-02-15 22:59:01",
+            "TransIncrease": 9
+        },
+        {
+            "group": "TPRS_TR_total",
+            "Date": "2016-02-15 23:03:41",
+            "Cumulative": 1840
+        },
+        {
+            "group": "TPRS_TR_step",
+            "Date": "2016-02-15 23:03:41",
+            "TransIncrease": 12
+        },
+        {
+            "group": "TPRS_TR_total",
+            "Date": "2016-02-15 23:08:02",
+            "Cumulative": 1847
+        },
+        {
+            "group": "TPRS_TR_step",
+            "Date": "2016-02-15 23:08:02",
+            "TransIncrease": 7
+        },
+        {
+            "group": "TPRS_TR_total",
+            "Date": "2016-02-15 23:12:22",
+            "Cumulative": 1854
+        },
+        {
+            "group": "TPRS_TR_step",
+            "Date": "2016-02-15 23:12:22",
+            "TransIncrease": 7
+        },
+        {
+            "group": "TPRS_TR_total",
+            "Date": "2016-02-15 23:18:02",
+            "Cumulative": 1858
+        },
+        {
+            "group": "TPRS_TR_step",
+            "Date": "2016-02-15 23:18:02",
+            "TransIncrease": 4
+        },
+        {
+            "group": "TPRS_TR_total",
+            "Date": "2016-02-15 23:23:42",
+            "Cumulative": 1862
+        },
+        {
+            "group": "TPRS_TR_step",
+            "Date": "2016-02-15 23:23:42",
+            "TransIncrease": 4
+        },
+        {
+            "group": "TPRS_TR_total",
+            "Date": "2016-02-15 23:28:42",
+            "Cumulative": 1868
+        },
+        {
+            "group": "TPRS_TR_step",
+            "Date": "2016-02-15 23:28:42",
+            "TransIncrease": 6
+        },
+        {
+            "group": "TPRS_TR_total",
+            "Date": "2016-02-15 23:33:23",
+            "Cumulative": 1873
+        },
+        {
+            "group": "TPRS_TR_step",
+            "Date": "2016-02-15 23:33:23",
+            "TransIncrease": 5
+        },
+        {
+            "group": "TPRS_TR_total",
+            "Date": "2016-02-15 23:38:23",
+            "Cumulative": 1881
+        },
+        {
+            "group": "TPRS_TR_step",
+            "Date": "2016-02-15 23:38:23",
+            "TransIncrease": 8
+        },
+        {
+            "group": "TPRS_TR_total",
+            "Date": "2016-02-15 23:43:03",
+            "Cumulative": 1894
+        },
+        {
+            "group": "TPRS_TR_step",
+            "Date": "2016-02-15 23:43:03",
+            "TransIncrease": 13
+        },
+        {
+            "group": "TPRS_TR_total",
+            "Date": "2016-02-15 23:48:44",
+            "Cumulative": 1903
+        },
+        {
+            "group": "TPRS_TR_step",
+            "Date": "2016-02-15 23:48:44",
+            "TransIncrease": 9
+        },
+        {
+            "group": "TPRS_TR_total",
+            "Date": "2016-02-15 23:53:25",
+            "Cumulative": 1917
+        },
+        {
+            "group": "TPRS_TR_step",
+            "Date": "2016-02-15 23:53:25",
+            "TransIncrease": 14
+        },
+        {
+            "group": "TPRS_TR_total",
+            "Date": "2016-02-15 23:58:43",
+            "Cumulative": 1927
+        },
+        {
+            "group": "TPRS_TR_step",
+            "Date": "2016-02-15 23:58:43",
+            "TransIncrease": 10
+        }
+    ],
+    "HOST_STAT": [
+        {
+            "group": "HOST_STAT_total",
+            "Date": "2016-02-15 11:44:57",
+            "Cumulative": 1
+        },
+        {
+            "group": "HOST_STAT_total",
+            "Date": "2016-02-15 17:08:51",
+            "Cumulative": 1
+        },
+        {
+            "group": "HOST_STAT_total",
+            "Date": "2016-02-15 17:13:51",
+            "Cumulative": 1
+        },
+        {
+            "group": "HOST_STAT_total",
+            "Date": "2016-02-15 17:18:31",
+            "Cumulative": 1
+        },
+        {
+            "group": "HOST_STAT_total",
+            "Date": "2016-02-15 17:23:11",
+            "Cumulative": 1
+        },
+        {
+            "group": "HOST_STAT_total",
+            "Date": "2016-02-15 17:28:52",
+            "Cumulative": 1
+        },
+        {
+            "group": "HOST_STAT_total",
+            "Date": "2016-02-15 17:32:11",
+            "Cumulative": 1
+        },
+        {
+            "group": "HOST_STAT_total",
+            "Date": "2016-02-15 17:38:52",
+            "Cumulative": 1
+        },
+        {
+            "group": "HOST_STAT_total",
+            "Date": "2016-02-15 17:43:52",
+            "Cumulative": 1
+        },
+        {
+            "group": "HOST_STAT_total",
+            "Date": "2016-02-15 17:48:12",
+            "Cumulative": 1
+        },
+        {
+            "group": "HOST_STAT_total",
+            "Date": "2016-02-15 17:53:53",
+            "Cumulative": 1
+        },
+        {
+            "group": "HOST_STAT_total",
+            "Date": "2016-02-15 17:58:33",
+            "Cumulative": 1
+        },
+        {
+            "group": "HOST_STAT_total",
+            "Date": "2016-02-15 18:02:33",
+            "Cumulative": 1
+        },
+        {
+            "group": "HOST_STAT_total",
+            "Date": "2016-02-15 18:08:33",
+            "Cumulative": 1
+        },
+        {
+            "group": "HOST_STAT_total",
+            "Date": "2016-02-15 18:13:53",
+            "Cumulative": 1
+        },
+        {
+            "group": "HOST_STAT_total",
+            "Date": "2016-02-15 18:18:54",
+            "Cumulative": 1
+        },
+        {
+            "group": "HOST_STAT_total",
+            "Date": "2016-02-15 18:23:34",
+            "Cumulative": 1
+        },
+        {
+            "group": "HOST_STAT_total",
+            "Date": "2016-02-15 18:27:54",
+            "Cumulative": 1
+        },
+        {
+            "group": "HOST_STAT_total",
+            "Date": "2016-02-15 18:32:54",
+            "Cumulative": 1
+        },
+        {
+            "group": "HOST_STAT_total",
+            "Date": "2016-02-15 18:38:54",
+            "Cumulative": 1
+        },
+        {
+            "group": "HOST_STAT_total",
+            "Date": "2016-02-15 18:43:54",
+            "Cumulative": 1
+        },
+        {
+            "group": "HOST_STAT_total",
+            "Date": "2016-02-15 18:48:55",
+            "Cumulative": 1
+        },
+        {
+            "group": "HOST_STAT_total",
+            "Date": "2016-02-15 18:53:55",
+            "Cumulative": 1
+        },
+        {
+            "group": "HOST_STAT_total",
+            "Date": "2016-02-15 18:58:55",
+            "Cumulative": 1
+        },
+        {
+            "group": "HOST_STAT_total",
+            "Date": "2016-02-15 19:03:55",
+            "Cumulative": 1
+        },
+        {
+            "group": "HOST_STAT_total",
+            "Date": "2016-02-15 19:07:35",
+            "Cumulative": 1
+        },
+        {
+            "group": "HOST_STAT_total",
+            "Date": "2016-02-15 19:13:56",
+            "Cumulative": 1
+        },
+        {
+            "group": "HOST_STAT_total",
+            "Date": "2016-02-15 19:18:56",
+            "Cumulative": 1
+        },
+        {
+            "group": "HOST_STAT_total",
+            "Date": "2016-02-15 19:22:16",
+            "Cumulative": 1
+        },
+        {
+            "group": "HOST_STAT_total",
+            "Date": "2016-02-15 19:28:56",
+            "Cumulative": 1
+        },
+        {
+            "group": "HOST_STAT_total",
+            "Date": "2016-02-15 19:32:16",
+            "Cumulative": 1
+        },
+        {
+            "group": "HOST_STAT_total",
+            "Date": "2016-02-15 19:38:17",
+            "Cumulative": 1
+        },
+        {
+            "group": "HOST_STAT_total",
+            "Date": "2016-02-15 19:43:37",
+            "Cumulative": 1
+        },
+        {
+            "group": "HOST_STAT_total",
+            "Date": "2016-02-15 19:48:57",
+            "Cumulative": 1
+        },
+        {
+            "group": "HOST_STAT_total",
+            "Date": "2016-02-15 19:53:57",
+            "Cumulative": 1
+        },
+        {
+            "group": "HOST_STAT_total",
+            "Date": "2016-02-15 19:58:57",
+            "Cumulative": 1
+        },
+        {
+            "group": "HOST_STAT_total",
+            "Date": "2016-02-15 20:02:58",
+            "Cumulative": 1
+        },
+        {
+            "group": "HOST_STAT_total",
+            "Date": "2016-02-15 20:06:58",
+            "Cumulative": 1
+        },
+        {
+            "group": "HOST_STAT_total",
+            "Date": "2016-02-15 20:13:58",
+            "Cumulative": 1
+        },
+        {
+            "group": "HOST_STAT_total",
+            "Date": "2016-02-15 20:18:38",
+            "Cumulative": 1
+        },
+        {
+            "group": "HOST_STAT_total",
+            "Date": "2016-02-15 20:23:38",
+            "Cumulative": 1
+        },
+        {
+            "group": "HOST_STAT_total",
+            "Date": "2016-02-15 20:28:19",
+            "Cumulative": 1
+        },
+        {
+            "group": "HOST_STAT_total",
+            "Date": "2016-02-15 20:33:59",
+            "Cumulative": 1
+        },
+        {
+            "group": "HOST_STAT_total",
+            "Date": "2016-02-15 20:38:59",
+            "Cumulative": 1
+        },
+        {
+            "group": "HOST_STAT_total",
+            "Date": "2016-02-15 20:42:39",
+            "Cumulative": 1
+        },
+        {
+            "group": "HOST_STAT_total",
+            "Date": "2016-02-15 20:46:59",
+            "Cumulative": 1
+        },
+        {
+            "group": "HOST_STAT_total",
+            "Date": "2016-02-15 20:53:20",
+            "Cumulative": 1
+        },
+        {
+            "group": "HOST_STAT_total",
+            "Date": "2016-02-15 20:58:20",
+            "Cumulative": 1
+        },
+        {
+            "group": "HOST_STAT_total",
+            "Date": "2016-02-15 21:04:00",
+            "Cumulative": 1
+        },
+        {
+            "group": "HOST_STAT_total",
+            "Date": "2016-02-15 21:09:00",
+            "Cumulative": 1
+        },
+        {
+            "group": "HOST_STAT_total",
+            "Date": "2016-02-15 21:13:40",
+            "Cumulative": 1
+        },
+        {
+            "group": "HOST_STAT_total",
+            "Date": "2016-02-15 21:19:00",
+            "Cumulative": 1
+        },
+        {
+            "group": "HOST_STAT_total",
+            "Date": "2016-02-15 21:24:01",
+            "Cumulative": 1
+        },
+        {
+            "group": "HOST_STAT_total",
+            "Date": "2016-02-15 21:29:01",
+            "Cumulative": 1
+        },
+        {
+            "group": "HOST_STAT_total",
+            "Date": "2016-02-15 21:33:41",
+            "Cumulative": 1
+        },
+        {
+            "group": "HOST_STAT_total",
+            "Date": "2016-02-15 21:39:01",
+            "Cumulative": 1
+        },
+        {
+            "group": "HOST_STAT_total",
+            "Date": "2016-02-15 21:44:01",
+            "Cumulative": 1
+        },
+        {
+            "group": "HOST_STAT_total",
+            "Date": "2016-02-15 21:48:41",
+            "Cumulative": 1
+        },
+        {
+            "group": "HOST_STAT_total",
+            "Date": "2016-02-15 21:53:42",
+            "Cumulative": 1
+        },
+        {
+            "group": "HOST_STAT_total",
+            "Date": "2016-02-15 21:58:42",
+            "Cumulative": 1
+        },
+        {
+            "group": "HOST_STAT_total",
+            "Date": "2016-02-15 22:04:02",
+            "Cumulative": 1
+        },
+        {
+            "group": "HOST_STAT_total",
+            "Date": "2016-02-15 22:08:22",
+            "Cumulative": 1
+        },
+        {
+            "group": "HOST_STAT_total",
+            "Date": "2016-02-15 22:13:02",
+            "Cumulative": 1
+        },
+        {
+            "group": "HOST_STAT_total",
+            "Date": "2016-02-15 22:18:43",
+            "Cumulative": 1
+        },
+        {
+            "group": "HOST_STAT_total",
+            "Date": "2016-02-15 22:23:43",
+            "Cumulative": 1
+        },
+        {
+            "group": "HOST_STAT_total",
+            "Date": "2016-02-15 22:28:43",
+            "Cumulative": 1
+        },
+        {
+            "group": "HOST_STAT_total",
+            "Date": "2016-02-15 22:33:23",
+            "Cumulative": 1
+        },
+        {
+            "group": "HOST_STAT_total",
+            "Date": "2016-02-15 22:38:43",
+            "Cumulative": 1
+        },
+        {
+            "group": "HOST_STAT_total",
+            "Date": "2016-02-15 22:43:43",
+            "Cumulative": 1
+        },
+        {
+            "group": "HOST_STAT_total",
+            "Date": "2016-02-15 22:47:24",
+            "Cumulative": 1
+        },
+        {
+            "group": "HOST_STAT_total",
+            "Date": "2016-02-15 22:53:24",
+            "Cumulative": 1
+        },
+        {
+            "group": "HOST_STAT_total",
+            "Date": "2016-02-15 22:58:44",
+            "Cumulative": 1
+        },
+        {
+            "group": "HOST_STAT_total",
+            "Date": "2016-02-15 23:03:24",
+            "Cumulative": 1
+        },
+        {
+            "group": "HOST_STAT_total",
+            "Date": "2016-02-15 23:08:25",
+            "Cumulative": 1
+        },
+        {
+            "group": "HOST_STAT_total",
+            "Date": "2016-02-15 23:12:45",
+            "Cumulative": 1
+        },
+        {
+            "group": "HOST_STAT_total",
+            "Date": "2016-02-15 23:18:25",
+            "Cumulative": 1
+        },
+        {
+            "group": "HOST_STAT_total",
+            "Date": "2016-02-15 23:23:25",
+            "Cumulative": 1
+        },
+        {
+            "group": "HOST_STAT_total",
+            "Date": "2016-02-15 23:28:05",
+            "Cumulative": 1
+        },
+        {
+            "group": "HOST_STAT_total",
+            "Date": "2016-02-15 23:33:45",
+            "Cumulative": 1
+        },
+        {
+            "group": "HOST_STAT_total",
+            "Date": "2016-02-15 23:38:46",
+            "Cumulative": 1
+        },
+        {
+            "group": "HOST_STAT_total",
+            "Date": "2016-02-15 23:43:26",
+            "Cumulative": 1
+        },
+        {
+            "group": "HOST_STAT_total",
+            "Date": "2016-02-15 23:48:46",
+            "Cumulative": 1
+        },
+        {
+            "group": "HOST_STAT_total",
+            "Date": "2016-02-15 23:53:46",
+            "Cumulative": 1
+        },
+        {
+            "group": "HOST_STAT_total",
+            "Date": "2016-02-15 23:58:06",
+            "Cumulative": 1
+        }
+    ],
+    "USMS_STAT": [
+        {
+            "group": "USMS_STAT_total",
+            "Date": "2016-02-15 11:44:57",
+            "Cumulative": 1
+        },
+        {
+            "group": "USMS_STAT_total",
+            "Date": "2016-02-15 17:08:51",
+            "Cumulative": 1
+        },
+        {
+            "group": "USMS_STAT_total",
+            "Date": "2016-02-15 17:13:51",
+            "Cumulative": 1
+        },
+        {
+            "group": "USMS_STAT_total",
+            "Date": "2016-02-15 17:18:31",
+            "Cumulative": 1
+        },
+        {
+            "group": "USMS_STAT_total",
+            "Date": "2016-02-15 17:23:11",
+            "Cumulative": 1
+        },
+        {
+            "group": "USMS_STAT_total",
+            "Date": "2016-02-15 17:28:52",
+            "Cumulative": 1
+        },
+        {
+            "group": "USMS_STAT_total",
+            "Date": "2016-02-15 17:32:11",
+            "Cumulative": 1
+        },
+        {
+            "group": "USMS_STAT_total",
+            "Date": "2016-02-15 17:38:52",
+            "Cumulative": 1
+        },
+        {
+            "group": "USMS_STAT_total",
+            "Date": "2016-02-15 17:43:52",
+            "Cumulative": 1
+        },
+        {
+            "group": "USMS_STAT_total",
+            "Date": "2016-02-15 17:48:12",
+            "Cumulative": 1
+        },
+        {
+            "group": "USMS_STAT_total",
+            "Date": "2016-02-15 17:53:53",
+            "Cumulative": 1
+        },
+        {
+            "group": "USMS_STAT_total",
+            "Date": "2016-02-15 17:58:33",
+            "Cumulative": 1
+        },
+        {
+            "group": "USMS_STAT_total",
+            "Date": "2016-02-15 18:02:33",
+            "Cumulative": 1
+        },
+        {
+            "group": "USMS_STAT_total",
+            "Date": "2016-02-15 18:08:33",
+            "Cumulative": 1
+        },
+        {
+            "group": "USMS_STAT_total",
+            "Date": "2016-02-15 18:13:53",
+            "Cumulative": 1
+        },
+        {
+            "group": "USMS_STAT_total",
+            "Date": "2016-02-15 18:18:54",
+            "Cumulative": 1
+        },
+        {
+            "group": "USMS_STAT_total",
+            "Date": "2016-02-15 18:23:34",
+            "Cumulative": 1
+        },
+        {
+            "group": "USMS_STAT_total",
+            "Date": "2016-02-15 18:27:54",
+            "Cumulative": 1
+        },
+        {
+            "group": "USMS_STAT_total",
+            "Date": "2016-02-15 18:32:54",
+            "Cumulative": 1
+        },
+        {
+            "group": "USMS_STAT_total",
+            "Date": "2016-02-15 18:38:54",
+            "Cumulative": 1
+        },
+        {
+            "group": "USMS_STAT_total",
+            "Date": "2016-02-15 18:43:54",
+            "Cumulative": 1
+        },
+        {
+            "group": "USMS_STAT_total",
+            "Date": "2016-02-15 18:48:55",
+            "Cumulative": 1
+        },
+        {
+            "group": "USMS_STAT_total",
+            "Date": "2016-02-15 18:53:55",
+            "Cumulative": 1
+        },
+        {
+            "group": "USMS_STAT_total",
+            "Date": "2016-02-15 18:58:55",
+            "Cumulative": 1
+        },
+        {
+            "group": "USMS_STAT_total",
+            "Date": "2016-02-15 19:03:55",
+            "Cumulative": 1
+        },
+        {
+            "group": "USMS_STAT_total",
+            "Date": "2016-02-15 19:07:35",
+            "Cumulative": 1
+        },
+        {
+            "group": "USMS_STAT_total",
+            "Date": "2016-02-15 19:13:56",
+            "Cumulative": 1
+        },
+        {
+            "group": "USMS_STAT_total",
+            "Date": "2016-02-15 19:18:56",
+            "Cumulative": 1
+        },
+        {
+            "group": "USMS_STAT_total",
+            "Date": "2016-02-15 19:22:16",
+            "Cumulative": 1
+        },
+        {
+            "group": "USMS_STAT_total",
+            "Date": "2016-02-15 19:28:56",
+            "Cumulative": 1
+        },
+        {
+            "group": "USMS_STAT_total",
+            "Date": "2016-02-15 19:32:16",
+            "Cumulative": 1
+        },
+        {
+            "group": "USMS_STAT_total",
+            "Date": "2016-02-15 19:38:17",
+            "Cumulative": 1
+        },
+        {
+            "group": "USMS_STAT_total",
+            "Date": "2016-02-15 19:43:37",
+            "Cumulative": 1
+        },
+        {
+            "group": "USMS_STAT_total",
+            "Date": "2016-02-15 19:48:57",
+            "Cumulative": 1
+        },
+        {
+            "group": "USMS_STAT_total",
+            "Date": "2016-02-15 19:53:57",
+            "Cumulative": 1
+        },
+        {
+            "group": "USMS_STAT_total",
+            "Date": "2016-02-15 19:58:57",
+            "Cumulative": 1
+        },
+        {
+            "group": "USMS_STAT_total",
+            "Date": "2016-02-15 20:02:58",
+            "Cumulative": 1
+        },
+        {
+            "group": "USMS_STAT_total",
+            "Date": "2016-02-15 20:06:58",
+            "Cumulative": 1
+        },
+        {
+            "group": "USMS_STAT_total",
+            "Date": "2016-02-15 20:13:58",
+            "Cumulative": 1
+        },
+        {
+            "group": "USMS_STAT_total",
+            "Date": "2016-02-15 20:18:38",
+            "Cumulative": 1
+        },
+        {
+            "group": "USMS_STAT_total",
+            "Date": "2016-02-15 20:23:38",
+            "Cumulative": 1
+        },
+        {
+            "group": "USMS_STAT_total",
+            "Date": "2016-02-15 20:28:19",
+            "Cumulative": 1
+        },
+        {
+            "group": "USMS_STAT_total",
+            "Date": "2016-02-15 20:33:59",
+            "Cumulative": 1
+        },
+        {
+            "group": "USMS_STAT_total",
+            "Date": "2016-02-15 20:38:59",
+            "Cumulative": 1
+        },
+        {
+            "group": "USMS_STAT_total",
+            "Date": "2016-02-15 20:42:39",
+            "Cumulative": 1
+        },
+        {
+            "group": "USMS_STAT_total",
+            "Date": "2016-02-15 20:46:59",
+            "Cumulative": 1
+        },
+        {
+            "group": "USMS_STAT_total",
+            "Date": "2016-02-15 20:53:20",
+            "Cumulative": 1
+        },
+        {
+            "group": "USMS_STAT_total",
+            "Date": "2016-02-15 20:58:20",
+            "Cumulative": 1
+        },
+        {
+            "group": "USMS_STAT_total",
+            "Date": "2016-02-15 21:04:00",
+            "Cumulative": 1
+        },
+        {
+            "group": "USMS_STAT_total",
+            "Date": "2016-02-15 21:09:00",
+            "Cumulative": 1
+        },
+        {
+            "group": "USMS_STAT_total",
+            "Date": "2016-02-15 21:13:40",
+            "Cumulative": 1
+        },
+        {
+            "group": "USMS_STAT_total",
+            "Date": "2016-02-15 21:19:00",
+            "Cumulative": 1
+        },
+        {
+            "group": "USMS_STAT_total",
+            "Date": "2016-02-15 21:24:01",
+            "Cumulative": 1
+        },
+        {
+            "group": "USMS_STAT_total",
+            "Date": "2016-02-15 21:29:01",
+            "Cumulative": 1
+        },
+        {
+            "group": "USMS_STAT_total",
+            "Date": "2016-02-15 21:33:41",
+            "Cumulative": 1
+        },
+        {
+            "group": "USMS_STAT_total",
+            "Date": "2016-02-15 21:39:01",
+            "Cumulative": 1
+        },
+        {
+            "group": "USMS_STAT_total",
+            "Date": "2016-02-15 21:44:01",
+            "Cumulative": 1
+        },
+        {
+            "group": "USMS_STAT_total",
+            "Date": "2016-02-15 21:48:41",
+            "Cumulative": 1
+        },
+        {
+            "group": "USMS_STAT_total",
+            "Date": "2016-02-15 21:53:42",
+            "Cumulative": 1
+        },
+        {
+            "group": "USMS_STAT_total",
+            "Date": "2016-02-15 21:58:42",
+            "Cumulative": 1
+        },
+        {
+            "group": "USMS_STAT_total",
+            "Date": "2016-02-15 22:04:02",
+            "Cumulative": 1
+        },
+        {
+            "group": "USMS_STAT_total",
+            "Date": "2016-02-15 22:08:22",
+            "Cumulative": 1
+        },
+        {
+            "group": "USMS_STAT_total",
+            "Date": "2016-02-15 22:13:02",
+            "Cumulative": 1
+        },
+        {
+            "group": "USMS_STAT_total",
+            "Date": "2016-02-15 22:18:43",
+            "Cumulative": 1
+        },
+        {
+            "group": "USMS_STAT_total",
+            "Date": "2016-02-15 22:23:43",
+            "Cumulative": 1
+        },
+        {
+            "group": "USMS_STAT_total",
+            "Date": "2016-02-15 22:28:43",
+            "Cumulative": 1
+        },
+        {
+            "group": "USMS_STAT_total",
+            "Date": "2016-02-15 22:33:23",
+            "Cumulative": 1
+        },
+        {
+            "group": "USMS_STAT_total",
+            "Date": "2016-02-15 22:38:43",
+            "Cumulative": 1
+        },
+        {
+            "group": "USMS_STAT_total",
+            "Date": "2016-02-15 22:43:43",
+            "Cumulative": 1
+        },
+        {
+            "group": "USMS_STAT_total",
+            "Date": "2016-02-15 22:47:24",
+            "Cumulative": 1
+        },
+        {
+            "group": "USMS_STAT_total",
+            "Date": "2016-02-15 22:53:24",
+            "Cumulative": 1
+        },
+        {
+            "group": "USMS_STAT_total",
+            "Date": "2016-02-15 22:58:44",
+            "Cumulative": 1
+        },
+        {
+            "group": "USMS_STAT_total",
+            "Date": "2016-02-15 23:03:24",
+            "Cumulative": 1
+        },
+        {
+            "group": "USMS_STAT_total",
+            "Date": "2016-02-15 23:08:25",
+            "Cumulative": 1
+        },
+        {
+            "group": "USMS_STAT_total",
+            "Date": "2016-02-15 23:12:45",
+            "Cumulative": 1
+        },
+        {
+            "group": "USMS_STAT_total",
+            "Date": "2016-02-15 23:18:25",
+            "Cumulative": 1
+        },
+        {
+            "group": "USMS_STAT_total",
+            "Date": "2016-02-15 23:23:25",
+            "Cumulative": 1
+        },
+        {
+            "group": "USMS_STAT_total",
+            "Date": "2016-02-15 23:28:05",
+            "Cumulative": 1
+        },
+        {
+            "group": "USMS_STAT_total",
+            "Date": "2016-02-15 23:33:45",
+            "Cumulative": 1
+        },
+        {
+            "group": "USMS_STAT_total",
+            "Date": "2016-02-15 23:38:46",
+            "Cumulative": 1
+        },
+        {
+            "group": "USMS_STAT_total",
+            "Date": "2016-02-15 23:43:26",
+            "Cumulative": 1
+        },
+        {
+            "group": "USMS_STAT_total",
+            "Date": "2016-02-15 23:48:46",
+            "Cumulative": 1
+        },
+        {
+            "group": "USMS_STAT_total",
+            "Date": "2016-02-15 23:53:46",
+            "Cumulative": 1
+        },
+        {
+            "group": "USMS_STAT_total",
+            "Date": "2016-02-15 23:58:06",
+            "Cumulative": 1
+        }
+    ],
+    "CLUSTER_STAT": [
+        {
+            "group": "CLUSTER_STAT_total",
+            "Date": "2016-02-15 11:44:57",
+            "Cumulative": 1
+        },
+        {
+            "group": "CLUSTER_STAT_total",
+            "Date": "2016-02-15 17:08:51",
+            "Cumulative": 1
+        },
+        {
+            "group": "CLUSTER_STAT_total",
+            "Date": "2016-02-15 17:13:51",
+            "Cumulative": 1
+        },
+        {
+            "group": "CLUSTER_STAT_total",
+            "Date": "2016-02-15 17:18:31",
+            "Cumulative": 1
+        },
+        {
+            "group": "CLUSTER_STAT_total",
+            "Date": "2016-02-15 17:23:11",
+            "Cumulative": 1
+        },
+        {
+            "group": "CLUSTER_STAT_total",
+            "Date": "2016-02-15 17:28:52",
+            "Cumulative": 1
+        },
+        {
+            "group": "CLUSTER_STAT_total",
+            "Date": "2016-02-15 17:32:11",
+            "Cumulative": 1
+        },
+        {
+            "group": "CLUSTER_STAT_total",
+            "Date": "2016-02-15 17:38:52",
+            "Cumulative": 1
+        },
+        {
+            "group": "CLUSTER_STAT_total",
+            "Date": "2016-02-15 17:43:52",
+            "Cumulative": 1
+        },
+        {
+            "group": "CLUSTER_STAT_total",
+            "Date": "2016-02-15 17:48:12",
+            "Cumulative": 1
+        },
+        {
+            "group": "CLUSTER_STAT_total",
+            "Date": "2016-02-15 17:53:53",
+            "Cumulative": 1
+        },
+        {
+            "group": "CLUSTER_STAT_total",
+            "Date": "2016-02-15 17:58:33",
+            "Cumulative": 1
+        },
+        {
+            "group": "CLUSTER_STAT_total",
+            "Date": "2016-02-15 18:02:33",
+            "Cumulative": 1
+        },
+        {
+            "group": "CLUSTER_STAT_total",
+            "Date": "2016-02-15 18:08:33",
+            "Cumulative": 1
+        },
+        {
+            "group": "CLUSTER_STAT_total",
+            "Date": "2016-02-15 18:13:53",
+            "Cumulative": 1
+        },
+        {
+            "group": "CLUSTER_STAT_total",
+            "Date": "2016-02-15 18:18:54",
+            "Cumulative": 1
+        },
+        {
+            "group": "CLUSTER_STAT_total",
+            "Date": "2016-02-15 18:23:34",
+            "Cumulative": 1
+        },
+        {
+            "group": "CLUSTER_STAT_total",
+            "Date": "2016-02-15 18:27:54",
+            "Cumulative": 1
+        },
+        {
+            "group": "CLUSTER_STAT_total",
+            "Date": "2016-02-15 18:32:54",
+            "Cumulative": 1
+        },
+        {
+            "group": "CLUSTER_STAT_total",
+            "Date": "2016-02-15 18:38:54",
+            "Cumulative": 1
+        },
+        {
+            "group": "CLUSTER_STAT_total",
+            "Date": "2016-02-15 18:43:54",
+            "Cumulative": 1
+        },
+        {
+            "group": "CLUSTER_STAT_total",
+            "Date": "2016-02-15 18:48:55",
+            "Cumulative": 1
+        },
+        {
+            "group": "CLUSTER_STAT_total",
+            "Date": "2016-02-15 18:53:55",
+            "Cumulative": 1
+        },
+        {
+            "group": "CLUSTER_STAT_total",
+            "Date": "2016-02-15 18:58:55",
+            "Cumulative": 1
+        },
+        {
+            "group": "CLUSTER_STAT_total",
+            "Date": "2016-02-15 19:03:55",
+            "Cumulative": 1
+        },
+        {
+            "group": "CLUSTER_STAT_total",
+            "Date": "2016-02-15 19:07:35",
+            "Cumulative": 1
+        },
+        {
+            "group": "CLUSTER_STAT_total",
+            "Date": "2016-02-15 19:13:56",
+            "Cumulative": 1
+        },
+        {
+            "group": "CLUSTER_STAT_total",
+            "Date": "2016-02-15 19:18:56",
+            "Cumulative": 1
+        },
+        {
+            "group": "CLUSTER_STAT_total",
+            "Date": "2016-02-15 19:22:16",
+            "Cumulative": 1
+        },
+        {
+            "group": "CLUSTER_STAT_total",
+            "Date": "2016-02-15 19:28:56",
+            "Cumulative": 1
+        },
+        {
+            "group": "CLUSTER_STAT_total",
+            "Date": "2016-02-15 19:32:16",
+            "Cumulative": 1
+        },
+        {
+            "group": "CLUSTER_STAT_total",
+            "Date": "2016-02-15 19:38:17",
+            "Cumulative": 1
+        },
+        {
+            "group": "CLUSTER_STAT_total",
+            "Date": "2016-02-15 19:43:37",
+            "Cumulative": 1
+        },
+        {
+            "group": "CLUSTER_STAT_total",
+            "Date": "2016-02-15 19:48:57",
+            "Cumulative": 1
+        },
+        {
+            "group": "CLUSTER_STAT_total",
+            "Date": "2016-02-15 19:53:57",
+            "Cumulative": 1
+        },
+        {
+            "group": "CLUSTER_STAT_total",
+            "Date": "2016-02-15 19:58:57",
+            "Cumulative": 1
+        },
+        {
+            "group": "CLUSTER_STAT_total",
+            "Date": "2016-02-15 20:02:58",
+            "Cumulative": 1
+        },
+        {
+            "group": "CLUSTER_STAT_total",
+            "Date": "2016-02-15 20:06:58",
+            "Cumulative": 1
+        },
+        {
+            "group": "CLUSTER_STAT_total",
+            "Date": "2016-02-15 20:13:58",
+            "Cumulative": 1
+        },
+        {
+            "group": "CLUSTER_STAT_total",
+            "Date": "2016-02-15 20:18:38",
+            "Cumulative": 1
+        },
+        {
+            "group": "CLUSTER_STAT_total",
+            "Date": "2016-02-15 20:23:38",
+            "Cumulative": 1
+        },
+        {
+            "group": "CLUSTER_STAT_total",
+            "Date": "2016-02-15 20:28:19",
+            "Cumulative": 1
+        },
+        {
+            "group": "CLUSTER_STAT_total",
+            "Date": "2016-02-15 20:33:59",
+            "Cumulative": 1
+        },
+        {
+            "group": "CLUSTER_STAT_total",
+            "Date": "2016-02-15 20:38:59",
+            "Cumulative": 1
+        },
+        {
+            "group": "CLUSTER_STAT_total",
+            "Date": "2016-02-15 20:42:39",
+            "Cumulative": 1
+        },
+        {
+            "group": "CLUSTER_STAT_total",
+            "Date": "2016-02-15 20:46:59",
+            "Cumulative": 1
+        },
+        {
+            "group": "CLUSTER_STAT_total",
+            "Date": "2016-02-15 20:53:20",
+            "Cumulative": 1
+        },
+        {
+            "group": "CLUSTER_STAT_total",
+            "Date": "2016-02-15 20:58:20",
+            "Cumulative": 1
+        },
+        {
+            "group": "CLUSTER_STAT_total",
+            "Date": "2016-02-15 21:04:00",
+            "Cumulative": 1
+        },
+        {
+            "group": "CLUSTER_STAT_total",
+            "Date": "2016-02-15 21:09:00",
+            "Cumulative": 1
+        },
+        {
+            "group": "CLUSTER_STAT_total",
+            "Date": "2016-02-15 21:13:40",
+            "Cumulative": 1
+        },
+        {
+            "group": "CLUSTER_STAT_total",
+            "Date": "2016-02-15 21:19:00",
+            "Cumulative": 1
+        },
+        {
+            "group": "CLUSTER_STAT_total",
+            "Date": "2016-02-15 21:24:01",
+            "Cumulative": 1
+        },
+        {
+            "group": "CLUSTER_STAT_total",
+            "Date": "2016-02-15 21:29:01",
+            "Cumulative": 1
+        },
+        {
+            "group": "CLUSTER_STAT_total",
+            "Date": "2016-02-15 21:33:41",
+            "Cumulative": 1
+        },
+        {
+            "group": "CLUSTER_STAT_total",
+            "Date": "2016-02-15 21:39:01",
+            "Cumulative": 1
+        },
+        {
+            "group": "CLUSTER_STAT_total",
+            "Date": "2016-02-15 21:44:01",
+            "Cumulative": 1
+        },
+        {
+            "group": "CLUSTER_STAT_total",
+            "Date": "2016-02-15 21:48:41",
+            "Cumulative": 1
+        },
+        {
+            "group": "CLUSTER_STAT_total",
+            "Date": "2016-02-15 21:53:42",
+            "Cumulative": 1
+        },
+        {
+            "group": "CLUSTER_STAT_total",
+            "Date": "2016-02-15 21:58:42",
+            "Cumulative": 1
+        },
+        {
+            "group": "CLUSTER_STAT_total",
+            "Date": "2016-02-15 22:04:02",
+            "Cumulative": 1
+        },
+        {
+            "group": "CLUSTER_STAT_total",
+            "Date": "2016-02-15 22:08:22",
+            "Cumulative": 1
+        },
+        {
+            "group": "CLUSTER_STAT_total",
+            "Date": "2016-02-15 22:13:02",
+            "Cumulative": 1
+        },
+        {
+            "group": "CLUSTER_STAT_total",
+            "Date": "2016-02-15 22:18:43",
+            "Cumulative": 1
+        },
+        {
+            "group": "CLUSTER_STAT_total",
+            "Date": "2016-02-15 22:23:43",
+            "Cumulative": 1
+        },
+        {
+            "group": "CLUSTER_STAT_total",
+            "Date": "2016-02-15 22:28:43",
+            "Cumulative": 1
+        },
+        {
+            "group": "CLUSTER_STAT_total",
+            "Date": "2016-02-15 22:33:23",
+            "Cumulative": 1
+        },
+        {
+            "group": "CLUSTER_STAT_total",
+            "Date": "2016-02-15 22:38:43",
+            "Cumulative": 1
+        },
+        {
+            "group": "CLUSTER_STAT_total",
+            "Date": "2016-02-15 22:43:43",
+            "Cumulative": 1
+        },
+        {
+            "group": "CLUSTER_STAT_total",
+            "Date": "2016-02-15 22:47:24",
+            "Cumulative": 1
+        },
+        {
+            "group": "CLUSTER_STAT_total",
+            "Date": "2016-02-15 22:53:24",
+            "Cumulative": 1
+        },
+        {
+            "group": "CLUSTER_STAT_total",
+            "Date": "2016-02-15 22:58:44",
+            "Cumulative": 1
+        },
+        {
+            "group": "CLUSTER_STAT_total",
+            "Date": "2016-02-15 23:03:24",
+            "Cumulative": 1
+        },
+        {
+            "group": "CLUSTER_STAT_total",
+            "Date": "2016-02-15 23:08:25",
+            "Cumulative": 1
+        },
+        {
+            "group": "CLUSTER_STAT_total",
+            "Date": "2016-02-15 23:12:45",
+            "Cumulative": 1
+        },
+        {
+            "group": "CLUSTER_STAT_total",
+            "Date": "2016-02-15 23:18:25",
+            "Cumulative": 1
+        },
+        {
+            "group": "CLUSTER_STAT_total",
+            "Date": "2016-02-15 23:23:25",
+            "Cumulative": 1
+        },
+        {
+            "group": "CLUSTER_STAT_total",
+            "Date": "2016-02-15 23:28:05",
+            "Cumulative": 1
+        },
+        {
+            "group": "CLUSTER_STAT_total",
+            "Date": "2016-02-15 23:33:45",
+            "Cumulative": 1
+        },
+        {
+            "group": "CLUSTER_STAT_total",
+            "Date": "2016-02-15 23:38:46",
+            "Cumulative": 1
+        },
+        {
+            "group": "CLUSTER_STAT_total",
+            "Date": "2016-02-15 23:43:26",
+            "Cumulative": 1
+        },
+        {
+            "group": "CLUSTER_STAT_total",
+            "Date": "2016-02-15 23:48:46",
+            "Cumulative": 1
+        },
+        {
+            "group": "CLUSTER_STAT_total",
+            "Date": "2016-02-15 23:53:46",
+            "Cumulative": 1
+        },
+        {
+            "group": "CLUSTER_STAT_total",
+            "Date": "2016-02-15 23:58:06",
+            "Cumulative": 1
+        }
+    ]
+}

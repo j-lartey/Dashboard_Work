@@ -1,0 +1,590 @@
+<!doctype html>
+<html>
+<head>
+	<title>JABS Dashboard</title>
+	<meta charset="utf-8"/>
+	<link rel="shortcut icon" href="var/www/html/images/DOJicon.ico"></link>
+	<link href="var/www/html/vis/4.11/vis.css" rel="stylesheet" type="text/css"></link>
+	<link href="var/www/html/jquery/jquery-ui-1.11.4/jquery-ui.min.css" rel="stylesheet" type="text/css"></link>
+	<link href="var/www/html/dashboard_css/dashboard.css" rel="stylesheet" type="text/css"></link>
+	
+	<style type="text/css">
+		body {
+			font-family: Arial, Helvetica, sans-serif;	
+			background-color: #E0E0E0;
+		}
+	</style>
+	
+	<script type="text/javascript" src="var/www/html/jquery/1.11.3/jquery.min.js"></script>
+	<script type="text/javascript" src="var/www/html/jquery/jquery-ui-1.11.4/jquery-ui.min.js"></script>
+	<script type="text/javascript" src="var/www/html/vis/4.11/vis.js"></script>
+	
+</head>
+<body>
+	<div id="Header">
+		<div id="Notes"></div>
+		<div id="Details">Data for the current day is refreshed automatically after 5 minutes. For data from previous days, the page is not refreshed.
+			The date can be selected with the "Date" menu below.
+			<div id="PickerDiv">Date: <input type="text" id="datepicker"/><input type="hidden" id="altdate"/></div>
+			<div id="menu">
+				<input type="button" id="reset" value="Reset"/>
+				<input type="button" id="moveRight" value="Move Right"/>
+				<input type="button" id="moveLeft" value="Move Left"/>
+				<input type="button" id="zoomOut" value="Zoom Out"/>
+				<input type="button" id="zoomIn" value="Zoom In"/>
+			</div>
+		</div>
+		<div id="Title">
+			<img src="var/www/html/images/new_jabs_logo2.png" id="JABS-logo-left"/>
+			Joint Automated Booking System Status
+			<img src="var/www/html/images/dojseal.png" id="JABS-logo-right"/>
+		</div>
+		
+		<div id="Date"></div>
+	</div>
+	
+	<div id="TopTitles">
+		<div id="ServiceTitle">Service Status</div>
+		<div id="TransTitle">Transaction Volume</div>
+	</div>
+	
+	<div id="statCharts">
+		<div id="chart5"></div>
+		<div id="chart6"></div>
+		<div id="chart7"></div>
+		<div id="chart8"></div>
+		<div id="chart9"></div>
+		<div id="chart10"></div>
+	</div>
+	<div id="transCharts">
+		<div id="chart1"></div>
+		<div id="chart2"></div>
+		<div id="chart3"></div>
+	</div>
+		
+	<div id="Totals">
+		<div id="chart1Total">
+			<p id="totalTitle1">Total DHS-TPRS <br><span id="totalValue1"/></p> 
+			<p id="avgTitle1">Average <br> <span id="avgValue1"/></p> 
+			<p id="maxTitle1">Maximum <br><span id="maxValue1"/></p>
+		</div>
+		<div id="chart2Total">
+			<p id="totalTitle2">Total Booking <br> <span id="totalValue2"/></p> 
+			<p id="avgTitle2">Average <br> <span id="avgValue2"/></p> 
+			<p id="maxTitle2">Maximum <br> <span id="maxValue2"/></p>
+		</div>
+		<div id="chart3Total">
+			<p id="totalTitle3">Total NGI-EFTS <br> <span id="totalValue3"/></p> 
+			<p id="avgTitle3">Average <br> <span id="avgValue3"/></p> 
+			<p id="maxTitle3">Maximum <br> <span id="maxValue3"/></p>
+		</div>
+	</div>
+	
+	<div id="BottomTitle">
+		<div id="EmailTitle">Message Volume</div>
+	</div>
+	
+	<div id="emailChart">
+		<div id="fillBlock">&nbsp;</div>
+		<div id="chart4"></div>
+	</div>
+	
+	<div id="Totals">
+		<div id="chart4Total">
+			<p id="emailTotalTitle1">Total NGI-EFTS <br> <span id="emailTotal1"/></p>
+			<p id="emailTotalTitle2">Total Booking <br> <span id="emailTotal2"/></p>
+			<p id="emailTotalTitle3">Total DHS-TPRS <br> <span id="emailTotal3"/></p>			
+		</div>	
+	</div>
+	
+	<script type="text/javascript">
+		
+	document.getElementById("Notes").style.display = "none"; //Hide the Notes section on the top left of the page by default.
+	document.getElementById("emailChart").style.display = "none";
+	
+	document.getElementById("Date").innerHTML = "Loading Date..."; //Provide a place-holder for the date field until calculations for the date are completed.
+	
+	//Create the container for each chart.
+	var container1 = document.getElementById('chart1');
+	var container2 = document.getElementById('chart2');
+	var container3 = document.getElementById('chart3');
+	var container4 = document.getElementById('chart4');
+	var container5 = document.getElementById('chart5');
+	var container6 = document.getElementById('chart6');
+	var container7 = document.getElementById('chart7');
+	var container8 = document.getElementById('chart8');
+	var container9 = document.getElementById('chart9');
+	var container10 = document.getElementById('chart10');
+	
+	document.getElementById('zoomIn').onclick    = function () { zoom(-0.2); }; //When selecting "ZoomIn" the appropriate function, direction, and percentage is called.
+	document.getElementById('zoomOut').onclick   = function () { zoom( 0.2); }; //When selecting "ZoomOut" the appropriate function, direction, and percentage is called.
+	document.getElementById('moveLeft').onclick  = function () { move( 0.2); }; //When selecting "MoveLeft" the appropriate function, direction, and percentage is called.
+	document.getElementById('moveRight').onclick = function () { move(-0.2); }; //When selecting "MoveRight" the appropriate function, direction, and percentage is called.
+	document.getElementById('reset').onclick 	 = function () { zoom( 24.0); }; //When selecting "Reset" the appropriate function is called.
+		
+	var currDayTime = new Date(); //Assign the current system day/time to a variable.
+	var currentDate = "" + currDayTime.getFullYear() + ("0" + (currDayTime.getMonth()+1)).slice(-2) + ("0" + currDayTime.getDate()).slice(-2); //Format is YYYYMMDD.
+	var year = "" + currDayTime.getFullYear(); //Get the current year.
+	var date = "" + currDayTime.getDate(); //Get the current day number.
+	var hour = "" + currDayTime.getHours(); //Get the current hour.
+	var min = "" + ("0" + currDayTime.getMinutes()).slice(-2); //Get the current number of minutes.
+	var sec = "" + ("0" + currDayTime.getSeconds()).slice(-2); //Get the current number of seconds.
+	var month = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"];
+	var month = "" + month[currDayTime.getMonth()]; //Define month names using the month array above.
+	var day = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"];
+	var day = "" + day[currDayTime.getDay()]; //Define the day names using an array.
+										
+	var midnightTime = new Date();
+	var midnight = midnightTime.setHours(0,0,0,0); //Define midnight. Used for graph limits.
+	var prevDayMin = midnightTime.setHours(0,0,0,0); //Define minimum graph limit for previous days.
+	var prevDayMax = new Date(); //Define maximum graph limit for previous days.
+	
+	getJSON().done(drawGraphs); //Run the function to draw the graphs after retrieving the requested JSON data.
+	
+	/**
+	 * Move the graphs a given percentage to the left or right. 
+	 */
+	function move (percentage) {
+		for (var i=0,j=transGraphs.length; i<j; i++) {
+			var range = transGraphs[i].getWindow();
+			var interval = range.end - range.start;
+
+			transGraphs[i].setWindow({
+				start: range.start.valueOf() - interval * percentage,
+				end:   range.end.valueOf()   - interval * percentage
+			});
+		};
+		for (var i=0,j=statGraphs.length; i<j; i++) {
+			var range = statGraphs[i].getWindow();
+			var interval = range.end - range.start;
+
+			statGraphs[i].setWindow({
+				start: range.start.valueOf() - interval * percentage,
+				end:   range.end.valueOf()   - interval * percentage
+			});
+		};
+	}
+
+	/**
+	 * Zoom the graphs a given percentage in or out. Also used to reset the graph view.
+	 */
+	function zoom (percentage) {
+		for (var i=0,j=transGraphs.length; i<j; i++) {
+			var range = transGraphs[i].getWindow();
+			var interval = range.end - range.start;
+
+			transGraphs[i].setWindow({
+				start: range.start.valueOf() - interval * percentage,
+				end:   range.end.valueOf()   + interval * percentage
+			});
+		};
+		for (var i=0,j=statGraphs.length; i<j; i++) {
+			var range = statGraphs[i].getWindow();
+			var interval = range.end - range.start;
+
+			statGraphs[i].setWindow({
+				start: range.start.valueOf() - interval * percentage,
+				end:   range.end.valueOf()   + interval * percentage
+			});
+		};
+	}
+	
+	/**
+	 * When the date picker is used to select a date, that selected date is passed to the graphing function.
+	 */
+	$("#datepicker").datepicker({
+		maxDate: 0,
+		minDate: (new Date(2016, 1 - 1, 20)), 	//We do not have data for days prior to 1/20/2016.
+		altFormat: "yymmdd",					//An alternative date format is used to display a "pretty" date to the user.
+		altField: "#altdate",
+		duration: "fast",
+		onClose: function() {
+			
+			currentDate = $("#altdate").val(); //Reset this value using the date from the picker.
+			prevDayMax = new Date(currentDate.substring(0,4), currentDate.substring(4,6)-1, currentDate.substring(6,8), "23", "59", "59"); 
+			prevDayMin = new Date(currentDate.substring(0,4), currentDate.substring(4,6)-1, currentDate.substring(6,8));
+			year = currentDate.substring(0,4); //Define the year.
+			date = currentDate.substring(6,8); //Define the day of the month.
+			month = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"];
+			month = "" + month[currentDate.substring(4,6)-1]; //Define the month from the month names array above.
+			day = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"];
+			day2 = $(this).datepicker('getDate');
+			day = day[day2.getDay()]; //Define the name of the day-of-the-week from the array above.
+			
+			clearGraphs(); //Call the function that clears the graphs and removes them from the DOM.
+			
+			document.getElementById("Date").innerHTML = "Loading Date..."; //Provide place-holder for the date field until calculations for the date are completed.
+			
+			getJSON().done(drawGraphs); //Call the graphing function using the selected day from the picker.
+		},				
+	});
+	$("#datepicker").datepicker("setDate", currentDate); //Set the current date as the displayed date when opening the dashboard page.
+	
+	/**
+	 * Retrieve the JSON data for the selected day(s).
+	 */
+	function getJSON() {
+		var url = "var/www/html/JSON_data/" + year + "/" + month + "/" + currentDate + ".json"; //Define the URL to the JSON data.
+		return $.ajax({
+			url: url,
+			cache: false,	
+			error: function(xhr, status, error) {  //Return an alert window and console log upon an error when loading JSON data.
+				var status = "***There was an error retrieving the graph data. Please inform the System Administrator.***";
+				console.log("ERROR: ***The JSON data file for the selected date was not found or an issue occurred loading the file.***");
+				alert(status);}
+		});	
+	};
+
+	/**
+	 * Draw the graph data using vis.js.
+	 */
+	function drawGraphs(data) {
+		//This "if" statement will check for an email Identifier in the JSON data file because some days do not have email data created. 
+		//This allows the creation of all other graphs while skipping the email graph.
+		if (typeof data.BOOKING_EMAIL !== 'undefined') {
+			var jsonObjects = [data.TPRS_TR, data.NTPRS_TR, data.NGI_TR, data.HOST_STAT, data.CLUSTER_STAT, data.TIER_STAT, 
+								data.TB_STAT, data.SOA_STAT, data.USMS_STAT, data.TPRS_EMAIL, data.EFTS_EMAIL, data.BOOKING_EMAIL];
+			document.getElementById("chart4").style.display = "block";
+			document.getElementById("chart4Total").style.display = "block";	
+			document.getElementById("emailChart").style.display = "block";
+			document.getElementById("EmailTitle").style.display = "block";			
+		} else {
+			var TPRS_EMAIL = [];
+			var EFTS_EMAIL = [];
+			var BOOKING_EMAIL = [];
+			var jsonObjects = [data.TPRS_TR, data.NTPRS_TR, data.NGI_TR, data.HOST_STAT, data.CLUSTER_STAT, data.TIER_STAT, 
+								data.TB_STAT, data.SOA_STAT, data.USMS_STAT, TPRS_EMAIL, EFTS_EMAIL, BOOKING_EMAIL];
+			document.getElementById("chart4").style.display = "none";
+			document.getElementById("chart4Total").style.display = "none";
+			document.getElementById("EmailTitle").style.display = "none";
+		};
+		//This "if" statement checks for a notes field in the JSON file. If not found, the notes box will not be displayed.
+		if (typeof data.NOTES !== 'undefined') {
+			notesBox = data.NOTES;
+		} else {
+			notesBox = [];
+			document.getElementById("Notes").style.display = "none";
+		};
+		
+		//The following three "for" loops read the most recent cumulative value for each transaction graph and then display the value. 
+		//The average number of transactions are also calculated and displayed.
+		for (var i=(jsonObjects[0].length-1); i>0; i--) {
+			if (typeof jsonObjects[0][i].Cumulative !== 'undefined') {
+				document.getElementById("totalValue1").innerHTML = jsonObjects[0][i].Cumulative;
+				document.getElementById("avgValue1").innerHTML = (jsonObjects[0][i].Cumulative / (jsonObjects[0].length / 2)).toFixed(2);
+				if (typeof jsonObjects[0][i].Cumulative !== 'defined') {break}						
+			};
+		};	
+		for (var i=(jsonObjects[1].length-1); i>0; i--) {
+			if (typeof jsonObjects[1][i].Cumulative !== 'undefined') {
+				document.getElementById("totalValue2").innerHTML = jsonObjects[1][i].Cumulative;
+				document.getElementById("avgValue2").innerHTML = (jsonObjects[1][i].Cumulative / (jsonObjects[1].length / 2)).toFixed(2);
+				if (typeof jsonObjects[1][i].Cumulative !== 'defined') {break}						
+			};
+		};
+		for (var i=(jsonObjects[2].length-1); i>0; i--) {
+			if (typeof jsonObjects[2][i].Cumulative !== 'undefined') {
+				document.getElementById("totalValue3").innerHTML = jsonObjects[2][i].Cumulative;
+				document.getElementById("avgValue3").innerHTML = (jsonObjects[2][i].Cumulative / (jsonObjects[2].length / 2)).toFixed(2);
+				if (typeof jsonObjects[2][i].Cumulative !== 'defined') {break}					
+			};
+		};
+		
+		//The 3 following "for" loops find the total amount of transactions for each email group then displays the value to the right of the graphs.
+		for (var i=(jsonObjects[9].length-1); i>0; i--) {
+			if (typeof jsonObjects[9][i].Cumulative !== 'undefined') {
+				document.getElementById("emailTotal3").innerHTML = jsonObjects[9][i].Cumulative;
+				if (typeof jsonObjects[9][i].Cumulative !== 'defined') {break}					
+			};
+		};
+		for (var i=(jsonObjects[10].length-1); i>0; i--) {
+			if (typeof jsonObjects[10][i].Cumulative !== 'undefined') {
+				document.getElementById("emailTotal1").innerHTML = jsonObjects[10][i].Cumulative;
+				if (typeof jsonObjects[10][i].Cumulative !== 'defined') {break}					
+			};
+		};
+		for (var i=(jsonObjects[11].length-1); i>0; i--) {
+			if (typeof jsonObjects[11][i].Cumulative !== 'undefined') {
+				document.getElementById("emailTotal2").innerHTML = jsonObjects[11][i].Cumulative;
+				if (typeof jsonObjects[11][i].Cumulative !== 'defined') {break}					
+			};
+		};
+		
+		//The 3 following "for" loops calculate the maximum "step" value from the dataset for each graph.
+		var prevValue1 = 0;
+		var prevValue2 = 0;
+		var prevValue3 = 0;
+		for (var i=0, j=jsonObjects[0].length; i<j; i++) {
+			if (typeof jsonObjects[0][i].TransIncrease !== 'undefined') {
+				if (jsonObjects[0][i].TransIncrease > prevValue1) {
+					var prevValue1 = jsonObjects[0][i].TransIncrease;
+					document.getElementById("maxValue1").innerHTML = prevValue1;
+				};
+			};
+		};
+		for (var i=0, j=jsonObjects[1].length; i<j; i++) {
+			if (typeof jsonObjects[1][i].TransIncrease !== 'undefined') {
+				if (jsonObjects[1][i].TransIncrease > prevValue2) {
+					var prevValue2 = jsonObjects[1][i].TransIncrease;
+					document.getElementById("maxValue2").innerHTML = prevValue2;
+				};
+			};
+		};
+		for (var i=0, j=jsonObjects[2].length; i<j; i++) {
+			if (typeof jsonObjects[2][i].TransIncrease !== 'undefined') {
+				if (jsonObjects[2][i].TransIncrease > prevValue3) {
+					var prevValue3 = jsonObjects[2][i].TransIncrease;
+					document.getElementById("maxValue3").innerHTML = prevValue3;
+				};
+			};
+		};					
+		
+		//Run through each of the objects in the JSON file to change each instance of the date and transaction totals to x and y for vis.js.
+		for (var i=0, j=jsonObjects.length; i<j; i++) {
+			var eachArray = jsonObjects[i];
+			eachArray.forEach(function(eachArray){
+				eachArray.x = eachArray.Date; delete eachArray.Date;  	
+				if ('Cumulative' in eachArray) {
+					eachArray.y = eachArray.Cumulative; delete eachArray.Cumulative};
+				if ('TransIncrease' in eachArray) {
+					eachArray.y = eachArray.TransIncrease; delete eachArray.TransIncrease;};
+				for (var key in eachArray) {
+					var value = eachArray[key];
+					if (value == 'TPRS_EMAIL_step') {eachArray[key] = 'ATPRS_EMAIL_step'};
+					if (value == 'EFTS_EMAIL_step') {eachArray[key] = 'CEFTS_EMAIL_step'};
+				};
+			});
+		};
+			
+		var groups = new vis.DataSet(); //Define groups to identify names for the legends and the styling unique to those groups.
+		//Transaction graph groups:
+		groups.add({id: 'TPRS_TR_step',	content: 'DHS-TPRS', 		style: "fill:#4f81bd; stroke: #4f81bd;", options: {style: 'bar', barChart: {width: 5, sideBySide: true}, yAxisOrientation: 'left'}});
+		groups.add({id: 'NGI_TR_step', 	content: 'NGI-EFTS', 	style: "fill:#4f81bd; stroke: #4f81bd;", options: {style: 'bar', barChart: {width: 5, sideBySide: true}, yAxisOrientation: 'left'}});
+		groups.add({id: 'NTPRS_TR_step',content: 'Booking', 	style: "fill:#4f81bd; stroke: #4f81bd;", options: {style: 'bar', barChart: {width: 5, sideBySide: true}, yAxisOrientation: 'left'}});
+		groups.add({id: 'TPRS_TR_total',  content: 'TPRS Total', 		style: "stroke: #00b32c", options: {yAxisOrientation: 'right', shaded: {orientation: 'bottom', 
+																		style: "fill: #00b32c; fill-opacity: .1"}, excludeFromLegend: true}});
+		groups.add({id: 'NTPRS_TR_total', content: 'Non-TPRS Total',	style: "stroke: #00b32c", options: {yAxisOrientation: 'right', shaded: {orientation: 'bottom', 
+																		style: "fill: #00b32c; fill-opacity: .1"}, excludeFromLegend: true}});
+		groups.add({id: 'NGI_TR_total',   content: 'IAFIS-NGI Total', 	style: "stroke: #00b32c", options: {yAxisOrientation: 'right', shaded: {orientation: 'bottom', 
+																		style: "fill: #00b32c; fill-opacity: .1"}, excludeFromLegend: true}});
+		//Status graph groups:
+		groups.add({id: 'HOST_STAT_total', 	  content: 'Host',			 options: {shaded: {orientation: 'bottom', style: "fill: #00b32c; fill-opacity: 1"}}, style: "stroke: #00b32c"});
+		groups.add({id: 'CLUSTER_STAT_total', content: 'Cluster',		 options: {shaded: {orientation: 'bottom', style: "fill: #00b32c; fill-opacity: 1"}}, style: "stroke: #00b32c"});
+		groups.add({id: 'TIER_STAT_total', 	  content: '3-Tier', 		 options: {shaded: {orientation: 'bottom', style: "fill: #00b32c; fill-opacity: 1"}}, style: "stroke: #00b32c"});
+		groups.add({id: 'TB_STAT_total', 	  content: 'Trusted Broker', options: {shaded: {orientation: 'bottom', style: "fill: #00b32c; fill-opacity: 1"}}, style: "stroke: #00b32c"});
+		groups.add({id: 'SOA_STAT_total', 	  content: 'SOA', 			 options: {shaded: {orientation: 'bottom', style: "fill: #00b32c; fill-opacity: 1"}}, style: "stroke: #00b32c"});
+		groups.add({id: 'USMS_STAT_total', 	  content: 'USMS', 			 options: {shaded: {orientation: 'bottom', style: "fill: #00b32c; fill-opacity: 1"}}, style: "stroke: #00b32c"});
+		//Email graph groups:
+		groups.add({id: 'ATPRS_EMAIL_step',   content: 'TPRS', 		style: "fill:#00b32c; stroke: #00b32c;", options: {style: 'bar', barChart: {width: 5, sideBySide: true}, yAxisOrientation: 'left'}});
+		groups.add({id: 'CEFTS_EMAIL_step',   content: 'EFTS', 		style: "fill:#4d4d4d; stroke: #4d4d4d;", options: {style: 'bar', barChart: {width: 5, sideBySide: true}, yAxisOrientation: 'left'}});
+		groups.add({id: 'BOOKING_EMAIL_step', content: 'BOOKING', 	style: "fill:#668cff; stroke: #668cff;", options: {style: 'bar', barChart: {width: 5, sideBySide: true}, yAxisOrientation: 'left'}});
+		groups.add({id: 'BOOKING_EMAIL_total', content: 'BOOKING Total', 	visible: false, options: {yAxisOrientation: 'right'}});
+		groups.add({id: 'EFTS_EMAIL_total',	   content: 'EFTS Total', 		visible: false});
+		groups.add({id: 'TPRS_EMAIL_total',    content: 'TPRS Total', 		visible: false});
+		/*groups.add({id: 'tester', content: 'tester1', options: {yAxisOrientation: 'right'}});*/
+					
+		//Assign the JSON data to vis.js variables for graphing later.
+		var TPRS =	  new vis.DataSet(jsonObjects[0]); var NTPRS = new vis.DataSet(jsonObjects[1]); var NGI = new vis.DataSet(jsonObjects[2]); var HOST = new vis.DataSet(jsonObjects[3]);
+		var CLUSTER = new vis.DataSet(jsonObjects[4]); var TIER =  new vis.DataSet(jsonObjects[5]); var TB =  new vis.DataSet(jsonObjects[6]); var SOA =  new vis.DataSet(jsonObjects[7]);
+		var USMS = 	  new vis.DataSet(jsonObjects[8]); var EMAIL = [];
+		
+		for (var i=0, j=jsonObjects[9].length; i<j; i++) {
+			var date = jsonObjects[9][i].x.substring(0, 17) + "00";
+			EMAIL.push({
+				x: date,
+				y: jsonObjects[9][i].y,
+				group: jsonObjects[9][i].group
+			});
+		};
+		for (var i=0, j=jsonObjects[10].length; i<j; i++) {
+			var date = jsonObjects[9][i].x.substring(0, 17) + "00";
+			EMAIL.push({
+				x: date,
+				y: jsonObjects[10][i].y,
+				group: jsonObjects[10][i].group
+			});
+		};
+		for (var i=0, j=jsonObjects[11].length; i<j; i++) {
+			var date = jsonObjects[9][i].x.substring(0, 17) + "00";
+			EMAIL.push({
+				x: date,
+				y: jsonObjects[11][i].y,
+				group: jsonObjects[11][i].group
+			});
+		};
+		
+		/*EMAIL.push({
+				x: currentDate.substring(0,4)+'-'+currentDate.substring(4,6)+'-'+currentDate.substring(6,8)+' 00:00:01',
+				y: 1000,
+				group: 'tester'
+		});*/
+		
+		var trans_options = { //Set the options for the 'number of transactions' graphs.
+			height: '134px',
+			drawPoints: false,
+			showCurrentTime: false,
+			clickToUse: false,
+			moveable: false,
+			zoomable: false,
+			legend: {icons: false, right: {position: 'top-left'}},
+			zoomMin: 3600000,
+			zoomMax: 86400000,
+			showMajorLabels: false,
+			dataAxis: 
+				 {width: '70px', left: {range: {min: 0}, title: {text: 'Transactions', style: "color: #4f81bd; font-weight: bold"}},
+								right: {range: {min: 0}, title: {text: 'Total Trans.', style: "color: #00b32c; font-weight: bold"}}}	
+		};
+		
+		var email_options = { //Set the options for the 'number of emails' graphs.
+			height: '150.5px',
+			drawPoints: false,
+			showCurrentTime: false,
+			clickToUse: false,
+			moveable: false,
+			zoomable: false,
+			legend: false,
+			zoomMin: 3600000,
+			zoomMax: 86400000,
+			showMajorLabels: false,
+			stack: true,
+			dataAxis: 
+				{width: '70px',  left: {range: {min: 0}, title: {text: 'Email Count', style: "font-weight: bold"}}, 
+								right: {range: {min: 0}, title: {text: 'Email Count', style: "font-weight: bold"}}}
+		};
+		
+		var status_options = { //Set the options for the up/down status graphs.
+			interpolation: {enabled: false},
+			height: '94.3px',
+			drawPoints: false,
+			showCurrentTime: false,
+			clickToUse: false,
+			moveable: false,
+			zoomable: false,
+			legend: {icons: false, left: {position: 'top-left'}},
+			zoomMin: 3600000,
+			zoomMax: 86400000,
+			showMajorLabels: false,
+			format: {minorLabels: {day: 'HH:mm'}},
+			dataAxis: 
+				{/*visible: false,*/ left: {range: {min: 0, max: 2}, format: function (y) {return statCheck[y];}}}
+		};
+		
+		var statCheck = ["DOWN", "UP"]; //Create an array for the status graphs to show "up or "down" text rather than 1 or 0.
+		
+		//Combine all the required parameters to assemble the graphs.
+		transGraphs =  [new vis.Graph2d(container1, TPRS, groups, trans_options),  new vis.Graph2d(container2, NTPRS, groups, trans_options),
+						new vis.Graph2d(container3, NGI, groups, trans_options),   new vis.Graph2d(container4, EMAIL, groups, email_options)];		
+		statGraphs =   [new vis.Graph2d(container5, HOST, groups, status_options), new vis.Graph2d(container6, CLUSTER, groups, status_options),
+						new vis.Graph2d(container7, TIER, groups, status_options), new vis.Graph2d(container8, TB, groups, status_options), 
+						new vis.Graph2d(container9, SOA, groups, status_options),  new vis.Graph2d(container10,USMS, groups, status_options)];
+							
+		//"Today" is used to check if the current date is requested.
+		var today = "" + currDayTime.getFullYear() + ("0" + (currDayTime.getMonth()+1)).slice(-2) + ("0" + currDayTime.getDate()).slice(-2);
+						
+		if (currentDate == today) {todaySettings()};   //This "if" statement checks for 'today' then calls the needed function.
+		if (currentDate != today) {prevDaySettings()}; //For all other days the needed function is called.
+	};
+
+	/**
+	 * This function sets the graph limits if viewing the current day. 
+	 * The clock on the page is counting in real-time as well and calculated here.
+	 */
+	function todaySettings() {
+		for (var i=0, j=transGraphs.length; i<j; i++) {
+			transGraphs[i].setOptions({
+				start: midnight,
+				end: currDayTime,
+				max: currDayTime,
+				min: midnight});
+		};
+		for (var i=0, j=statGraphs.length; i<j; i++) {
+			statGraphs[i].setOptions({
+				start: midnight,
+				end: currDayTime,
+				max: currDayTime,
+				min: midnight});
+		};
+		function clockTick() {
+			var currentTime = new Date();
+			var month = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"];
+			var month = "" + month[currentTime.getMonth()];
+			var day = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"];
+			var day = "" + day[currentTime.getDay()];
+			var year = currentTime.getFullYear();
+			var hours = currentTime.getHours();
+			var date = currentTime.getDate();
+			var minutes = ("0" + currentTime.getMinutes()).slice(-2);
+			var seconds = ("0" + currentTime.getSeconds()).slice(-2);
+			time = (day+', '+month+' '+date+' '+year+' - '+hours+':'+minutes+':'+seconds+' EST'); //Define the Date/time on the page.
+			document.getElementById('Date').innerHTML = time; //Display the date/time.
+		};
+		clock = setInterval(clockTick, 1000); //Set the clock counter (changes every second).
+		pageRefresh = setInterval("refresh()", 300000); //Set the page refresh at 5 minute intervals.
+		document.getElementById("Notes").style.display = "none"; //Remove the Notes display.
+	};
+
+	/**
+	 * This function sets the graph limits if viewing any day previous to today.
+	 * The clock from "today" is cleared and only the date is shown.
+	 */
+	function prevDaySettings() {
+		for (var i=0, j=transGraphs.length; i<j; i++) { //Transaction and email graphs.
+			transGraphs[i].setOptions({
+				start: prevDayMin,
+				end: prevDayMax,
+				max: prevDayMax,
+				min: prevDayMin});
+		};
+		for (var i=0, j=statGraphs.length; i<j; i++) { //Status graphs.
+			statGraphs[i].setOptions({
+				start: prevDayMin,
+				end: prevDayMax,
+				max: prevDayMax,
+				min: prevDayMin});
+		};
+		clearInterval(clock); //Clear the clock counter.
+		clearInterval(pageRefresh); //Clear the page refresh (no refresh for previous day screens).
+		time = (day+', '+month+' '+date+' '+year); //Define the Date/time on the page.
+		document.getElementById('Date').innerHTML = time; //Display the date.
+		if (notesBox.length > 0) { //Check if the notes exist.
+			document.getElementById('Notes').innerHTML = notesBox; 
+			document.getElementById("Notes").style.display = "block";
+		};
+	};
+
+	/**
+	 * When called, this function clears the graphs and removes them from the DOM.
+	 */
+	function clearGraphs() { 
+		while (container1.hasChildNodes()) {container1.removeChild(container1.firstChild)};	while (container2.hasChildNodes()) {container2.removeChild(container2.firstChild)};
+		while (container3.hasChildNodes()) {container3.removeChild(container3.firstChild)};	while (container4.hasChildNodes()) {container4.removeChild(container4.firstChild)};
+		while (container5.hasChildNodes()) {container5.removeChild(container5.firstChild)};	while (container6.hasChildNodes()) {container6.removeChild(container6.firstChild)};
+		while (container7.hasChildNodes()) {container7.removeChild(container7.firstChild)};	while (container8.hasChildNodes()) {container8.removeChild(container8.firstChild)};
+		while (container9.hasChildNodes()) {container9.removeChild(container9.firstChild)}; while (container10.hasChildNodes()){container10.removeChild(container10.firstChild)};
+		
+		//These two "for" loops remove all graphs from memory and clear the DOM. This is a performance enhancement.
+		for (var i=0, j=transGraphs.length; i<j; i++) {
+			transGraphs[i].destroy();
+		};
+		for (var i=0, j=statGraphs.length; i<j; i++) {
+			statGraphs[i].destroy();
+		};
+		
+		//Clear the date field in the header.
+		var node = document.getElementById('Date'); 
+		while (node.hasChildNodes()) {
+			node.removeChild(node.firstChild);
+		};
+		
+		document.getElementById("emailChart").style.display = "none";
+	};
+
+	/**
+	 * When called, this function refreshes the page.
+	 */
+	function refresh() {
+		location.reload(true);
+	};
+	</script>
+</body>
+</html>

@@ -1,0 +1,280 @@
+#Header {
+	margin: auto;
+	float: center;
+	padding-left: 2%;
+	padding-right: 2%;
+	display: block;
+	overflow: auto;
+}
+
+#Notes {
+	width: 20%;
+	float: left;
+	overflow: auto;
+	max-height: 5.5vw;
+	border-style: solid;
+	border-color: #505050;
+	border-width: 2px; 
+	background: #FFFFFF;
+	font-style: italic;
+	text-align: center;
+	font-size: .85vw;
+}
+
+#Title {
+	font-size: 1.3vw;
+	font-weight: bold;
+	text-align: center;
+	width: 40%;
+	margin: auto;
+	padding: .3%;
+}
+
+#Date {
+	font-size: 1vw; 
+	font-weight: bold;
+	text-align: center; 
+	padding: .5%;
+	width: 40%;
+	margin: auto;
+}
+
+#Details {
+	font-size: .7vw;
+	font-style: italic;
+	text-align: justify;
+	margin: auto;
+	width: 27%;
+	float: right;
+}
+
+#menu {
+    float: right;
+	width: 100%;
+	margin-top: 5px;
+}
+
+#moveRight, #moveLeft, #zoomOut, #zoomIn, #reset {
+	float: right;
+	margin: .25%;
+	color: #FFFFFF;
+	background: #505050;
+	font-size: .75vw;
+}
+
+#PickerDiv {
+	font-weight: bold; 
+	font-size: .9vw;
+	text-align: center;
+	margin-top: 10px;
+	float: right;
+}
+
+#PickerDiv2 {
+	font-weight: bold; 
+	font-size: .9vw;
+	text-align: center;
+	margin-top: 10px;
+	float: middle;
+}
+
+#datepicker {
+	width: 4.5vw; 
+	font-size: .75vw; 
+	position: relative; 
+	z-index: 100000;
+	text-align: center;
+}
+
+#JABS-logo-left {
+	width: 3.8vw; 
+	float: left;
+}
+
+#JABS-logo-right {
+	width: 4vw; 
+	float: right;
+}
+
+#TopTitles {
+	margin: auto;
+	padding-left: 2%;
+	padding-right: 2%;
+	padding-bottom: 5px;
+	padding-top: .5%;
+	color: #FFFFFF;
+	font-size: .85vw;
+	text-align: center;
+}
+
+#BottomTitle {
+	margin-top: 417px;
+	padding-left: 2%;
+	padding-right: 2%;
+	color: #FFFFFF;
+	font-size: .85vw;
+	text-align: center;
+}
+
+#ServiceTitle {
+	float: left;
+	width: 20%;
+	border-style: solid;
+	border-color: #505050;
+	border-width: 2px; 
+	background: #505050;
+}
+
+#TransTitle {
+	margin-left: 21%;
+	border-style: solid;
+	border-color: #505050;
+	border-width: 2px;
+	background: #505050;
+}
+
+#EmailTitle {
+	margin-left: 21%;
+	border-style: solid;
+	border-color: #505050;
+	border-width: 2px;
+	background: #505050;
+}
+
+#Chart {
+	font-size: .85vw;
+	margin-top: 5px;
+	text-align: center;
+	background-color: #FFFFFF;
+}
+
+#statCharts {
+	width: 19.45%;
+	float: left;
+	padding-left: 2%;
+	padding-right: .7%;
+	font-size: .85vw;
+	margin: auto;
+}
+
+#transCharts {
+	width: 68%; 
+	float: left;
+	font-size: .85vw;
+	margin: auto;
+}
+
+#emailChart {
+	width: 68%; 
+	float: left;
+	font-size: .85vw;
+	margin-top: 5px;
+}
+
+#chart1, #chart2, #chart3, #chart4, #chart5, #chart6, #chart7, #chart8, #chart9, #chart10 {
+	background-color: #FFFFFF; 
+}
+
+#chart2, #chart3, #chart6, #chart7, #chart8, #chart9, #chart10 {
+	margin-top: 5px;
+}
+
+#fillBlock {
+	width: 70px;
+	float: right;
+	display: block;
+	height: 148px;
+	border-style: solid;
+	border-color: #c0c0c0;
+	border-width: .1px;
+	border-left: none;
+}
+
+#Totals {
+	float: right;
+	width: 7.24%;
+	padding-right: 2%;
+	font-size: .85vw;
+}
+
+#chart1Total, #chart2Total, #chart3Total {
+	background-color: #E0E0E0;
+	height: 132px;
+	border: 1px solid #E0E0E0;
+	text-align: center;
+}
+
+#chart4Total {
+	background-color: #E0E0E0;
+	height: 132px;
+	border: 1px solid #E0E0E0;
+	text-align: center;
+}
+
+#chart2Total, #chart3Total, #chart4Total {
+	margin-top: 5px;
+}
+
+#totalTitle1, #totalTitle2, #totalTitle3 {
+	color: #505050;
+	font-weight: bold;
+	border-style: solid;
+	border-color: #00b32c;
+	border-width: 2px;
+	background: #FFFFFF;
+	margin-bottom: 3px;
+	margin-top: 8px;
+	height: 33px;
+}
+
+#avgTitle1, #avgTitle2, #avgTitle3 {
+	color: #505050;
+	font-weight: bold;
+	border-style: solid;
+	border-color: #4f81bd;
+	border-width: 2px;
+	background: #FFFFFF;
+	margin-bottom: 3px;
+	margin-top: 3px;
+	vertical-align: middle;
+	height: 33px;
+}
+
+#maxTitle1, #maxTitle2, #maxTitle3 {
+	color: #505050;
+	font-weight: bold;
+	border-style: solid;
+	border-color: #4f81bd;
+	border-width: 2px;
+	background: #FFFFFF;
+	margin-bottom: 8px;
+	margin-top: 3px;
+	height: 33px;
+}
+
+#emailTotalTitle1, #emailTotalTitle2, #emailTotalTitle3 {
+	color: #505050;
+	font-weight: bold;
+	border-style: solid;
+	border-width: 2px;
+	background: #FFFFFF;
+	height: 33px;
+}
+
+#emailTotalTitle3 {
+	margin-bottom: 8px;
+	margin-top: 3px;
+	border-color: #00b32c;
+}
+
+#emailTotalTitle2 {
+	margin-bottom: 3px;
+	margin-top: 3px;
+	border-color: #668cff;
+}
+
+#emailTotalTitle1 {
+	margin-bottom: 3px;
+	margin-top: 8px;
+	border-color: #4d4d4d;
+}
